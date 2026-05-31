@@ -1,0 +1,3 @@
+# This directory is the source for GitHub Pages deployment.
+# The daily-sync workflow outputs ddl_events.ics here,
+# which is then served at https://<user>.github.io/<repo>/ddl_events.ics

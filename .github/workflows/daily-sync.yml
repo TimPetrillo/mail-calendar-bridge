@@ -1,0 +1,64 @@
+name: Daily DDL Sync
+
+on:
+  schedule:
+    # UTC 1:00 = 北京时间 9:00
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Write .env from Secrets
+        run: |
+          cat > .env << 'EOF'
+          MAIL_HOST=${{ secrets.MAIL_HOST || 'mail.ustc.edu.cn' }}
+          MAIL_PORT=${{ secrets.MAIL_PORT || '993' }}
+          MAIL_USERNAME=${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }}
+          MAIL_FOLDER=${{ secrets.MAIL_FOLDER || 'INBOX' }}
+          MAIL_SEARCH_DAYS=${{ secrets.MAIL_SEARCH_DAYS || '7' }}
+          ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_BASE_URL=${{ secrets.ANTHROPIC_BASE_URL }}
+          ANTHROPIC_MODEL=${{ secrets.ANTHROPIC_MODEL }}
+          DDL_CONFIDENCE_THRESHOLD=${{ secrets.DDL_CONFIDENCE_THRESHOLD || '0.6' }}
+          OUTPUT_DIR=./docs
+          OUTPUT_FILENAME=ddl_events.ics
+          DB_PATH=./data/mail_cache.db
+          LOG_LEVEL=INFO
+          EOF
+
+      - name: Ensure data/ and docs/ directories exist
+        run: mkdir -p data docs
+
+      - name: Run mail-calendar-bridge
+        run: python main.py --days 7
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f data/mail_cache.db docs/ddl_events.ics
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: sync DDL events [skip ci]"
+            git push
+          fi

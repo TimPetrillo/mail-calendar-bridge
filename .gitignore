@@ -1,0 +1,21 @@
+# 敏感配置（绝对不提交）
+.env
+
+# 输出目录
+output/
+
+# 数据库文件（CI 中通过 git add -f 强制跟踪 mail_cache.db 以实现持久化）
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
