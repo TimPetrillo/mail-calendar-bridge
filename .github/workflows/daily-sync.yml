@@ -36,8 +36,8 @@ jobs:
           MAIL_FOLDER=${{ secrets.MAIL_FOLDER || 'INBOX' }}
           MAIL_SEARCH_DAYS=${{ secrets.MAIL_SEARCH_DAYS || '7' }}
           ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_BASE_URL=${{ secrets.ANTHROPIC_BASE_URL }}
-          ANTHROPIC_MODEL=${{ secrets.ANTHROPIC_MODEL }}
+          ANTHROPIC_BASE_URL=${{ secrets.ANTHROPIC_BASE_URL || 'https://api.anthropic.com' }}
+          ANTHROPIC_MODEL=${{ secrets.ANTHROPIC_MODEL || 'claude-sonnet-4-6' }}
           DDL_CONFIDENCE_THRESHOLD=${{ secrets.DDL_CONFIDENCE_THRESHOLD || '0.6' }}
           OUTPUT_DIR=./docs
           OUTPUT_FILENAME=ddl_events.ics
@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/mail_cache.db docs/ddl_events.ics
+          git add -f docs/ddl_events.ics
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

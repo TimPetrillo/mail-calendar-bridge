@@ -28,27 +28,33 @@ GitHub Actions (每日 9:00 定时)
 ## 环境要求
 
 - Python 3.10 或以上
-- Windows 10/11（脚本运行环境）
+- Windows 10/11、macOS 或 Linux
 - USTC 邮箱账号
 - Anthropic API Key（用于 Claude API 调用）
 
 ## 安装
 
-```bash
-# 1. 进入项目目录
-cd mail-calendar-bridge/
+### Windows PowerShell
 
-# 2. 创建虚拟环境（推荐）
+```powershell
+cd mail-calendar-bridge
 python -m venv .venv
-.venv\Scripts\activate
-
-# 3. 安装依赖
-pip install -r requirements.txt
-
-# 4. 复制配置模板并填入真实值
-copy .env.example .env
-# 然后用文本编辑器编辑 .env 文件
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+Copy-Item .env.example .env
 ```
+
+### macOS / Linux / Git Bash
+
+```bash
+cd mail-calendar-bridge
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+cp .env.example .env
+```
+
+然后用文本编辑器编辑 `.env` 文件，填入真实值。
 
 ## 配置
 
@@ -64,8 +70,8 @@ MAIL_SEARCH_DAYS=7                               # 每次搜索最近几天
 
 # Claude API（支持 Anthropic 官方 API 及第三方兼容 API）
 ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxx           # 替换为你的 API Key
-ANTHROPIC_BASE_URL=https://api.anthropic.com     # API 地址，使用第三方兼容 API 时替换
-ANTHROPIC_MODEL=claude-sonnet-4-6                # 模型名称
+ANTHROPIC_BASE_URL=https://api.anthropic.com     # 可选：API 地址，使用第三方兼容 API 时替换
+ANTHROPIC_MODEL=claude-sonnet-4-6                # 可选：模型名称
 
 # 置信度阈值（0.0-1.0），低于此值的事件不会写入日历
 DDL_CONFIDENCE_THRESHOLD=0.6
@@ -108,13 +114,26 @@ python main.py --force-all
 python main.py --rebuild-ics
 ```
 
+本地默认写入 `output/ddl_events_<date>.ics` 和 `data/mail_cache.db`。GitHub Actions 会覆盖输出配置，生成用于 Pages 订阅的 `docs/ddl_events.ics`。
+
+### 运行测试
+
+单元测试使用假环境变量和 mock，不需要真实邮箱密码或 API Key。
+
+```bash
+python -m pytest -q
+python -m pytest tests/test_mail_reader.py -q
+```
+
+如果 Windows 环境中的 `python` 指向 Microsoft Store alias，可改用 `py -m pytest -q`。
+
 ### 运行输出示例
 
 ```
 2026-05-31 10:30:00 [INFO] main: Mail-Calendar-Bridge 启动
 2026-05-31 10:30:01 [INFO] mail_reader: 正在连接 mail.ustc.edu.cn:993 ...
 2026-05-31 10:30:02 [INFO] mail_reader: 搜索 31-May-2026 以来 (近 7 天) 的邮件...
-2026-05-31 10:30:02 [INFO] mail_reader: 找到 15 封邮件，开始解析...
+2026-05-31 10:30:02 [INFO] mail_reader: 找到 15 封邮件，开始按 UID 解析...
 2026-05-31 10:30:03 [INFO] main: 开始处理 3 封新邮件（共 15 封，12 封已处理）...
 2026-05-31 10:30:03 [INFO] ddl_extractor: 分析邮件 [1/3]: 关于数值分析课程作业提交的通知
 2026-05-31 10:30:05 [INFO] ddl_extractor:   → 提取到 1 个事件 (阈值过滤后)
@@ -175,7 +194,7 @@ python main.py >> output\run.log 2>&1
    - Android 系统会订阅此 URL，之后自动定期拉取更新
 4. 日历事件会出现在你的系统日历 App 中，每次脚本运行后自动更新
 
-> **注意**：GitHub Pages 对 **private 仓库**有使用限制（需要 GitHub Pro）。建议将仓库设为 **public**。代码中不含密码（敏感信息存储在 GitHub Secrets 中，Actions 运行时才解密），公开代码是安全的。
+> **注意**：GitHub Pages 对 **private 仓库**有使用限制（需要 GitHub Pro）。如果仓库设为 public，代码和 GitHub Secrets 仍不会暴露密码，但 `docs/ddl_events.ics` 会作为公开文件发布，里面可能包含课程、会议、地点和邮件主题等个人日程信息。请根据隐私需求选择 public Pages、private 仓库或仅本地使用。
 
 ### 方法二：云盘同步
 
@@ -185,14 +204,14 @@ python main.py >> output\run.log 2>&1
 4. 系统会自动弹出"添加到日历"对话框，确认导入
 5. 日历事件会出现在你的系统日历 App 中
 
-### 方法二：USB 传输
+### 方法三：USB 传输
 
 1. 用 USB 数据线连接手机和电脑
 2. 将 `output/ddl_events_YYYY-MM-DD.ics` 复制到手机的 `Download` 或任意文件夹
 3. 在手机上打开**文件管理器**，找到该文件并点击
 4. 选择用**日历**打开，确认导入
 
-### 方法三：微信/QQ 传输
+### 方法四：微信/QQ 传输
 
 1. 通过微信或 QQ 将 `ddl_events_YYYY-MM-DD.ics` 发送到手机
 2. 在手机上下载文件并点击打开
@@ -233,9 +252,9 @@ mail-calendar-bridge/
 ├── .github/workflows/            # GitHub Actions CI
 │   └── daily-sync.yml            # 每日定时同步工作流
 ├── docs/                         # GitHub Pages 部署源
-│   └── ddl_events.ics            # 生成的日历文件（CI 自动推送）
-├── output/                       # 本地运行时的 .ics 输出目录
-├── data/                         # 数据库文件目录（不提交）
+│   └── ddl_events.ics            # Actions 生成的日历文件
+├── output/                       # 本地运行时的 .ics 输出目录（不提交）
+├── data/                         # 本地数据库文件目录（不提交）
 └── tests/                        # 单元测试
     ├── test_mail_reader.py
     ├── test_ddl_extractor.py
@@ -250,10 +269,10 @@ mail-calendar-bridge/
 1. 连接邮箱读新邮件
 2. Claude API 提取 DDL
 3. 生成 `docs/ddl_events.ics`
-4. 自动提交推送到仓库
+4. 自动提交推送日历文件到仓库
 5. GitHub Pages 部署，手机通过 webcal 订阅
 
-**不再需要**手动运行脚本、手动传输 .ics 文件到手机。
+**不再需要**手动运行脚本、手动传输 .ics 文件到手机。Actions 只提交 `docs/ddl_events.ics`；`data/mail_cache.db` 是运行缓存，不提交到仓库。
 
 ### 首次配置
 
@@ -268,7 +287,7 @@ mail-calendar-bridge/
 ```bash
 cd mail-calendar-bridge
 git init
-git add .
+git add .env.example .gitignore README.md requirements.txt main.py config.py mail_reader.py ddl_extractor.py calendar_writer.py db.py .github/workflows/daily-sync.yml docs/.gitkeep tests
 git commit -m "feat(mail-calendar-bridge): init"
 git branch -M main
 git remote add origin https://github.com/<你的用户名>/mail-calendar-bridge.git
@@ -316,7 +335,7 @@ git push -u origin main
 
 1. 在仓库 Actions 页面，点击 "Daily DDL Sync" -> Run workflow -> Run workflow
 2. 观察运行日志，确认无错误
-3. 运行完成后，检查 `docs/ddl_events.ics` 是否已推送到仓库
+3. 运行完成后，检查 `docs/ddl_events.ics` 是否已推送到仓库，并确认 `data/mail_cache.db` 没有进入提交
 4. 在浏览器打开 Pages URL，确认能下载 .ics 文件
 5. 在手机上查看日历，确认事件已出现
 
@@ -349,4 +368,5 @@ git push -u origin main
 - 邮件密码和 API Key 仅存储在本地 `.env` 文件中，不通过网络传输
 - IMAP 连接使用 SSL (port 993)，传输层加密
 - 邮件内容仅发送到 Anthropic API（用于 Claude 分析），不发送到任何其他第三方
-- 所有数据（邮件缓存、事件记录）存储在本地 SQLite 数据库中
+- 本地运行时的邮件缓存和事件记录存储在本地 SQLite 数据库中，默认路径为 `data/mail_cache.db`
+- GitHub Actions 发布的 `docs/ddl_events.ics` 可能包含个人日程信息；如果仓库或 Pages 是公开的，这个文件也会公开

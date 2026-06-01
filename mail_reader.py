@@ -8,6 +8,7 @@ import email
 import email.message
 import logging
 import imaplib
+import re
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, date
 from email.header import decode_header, make_header
@@ -127,6 +128,19 @@ def _parse_date(date_str: Optional[str]) -> datetime:
         return datetime.now()
 
 
+def _normalize_message_id(raw: Optional[str]) -> str:
+    """规范化 RFC 822 Message-ID。"""
+    if not raw:
+        return ""
+    return " ".join(raw.split())
+
+
+def _extract_uid_from_fetch_header(header: bytes) -> str:
+    """从 UID FETCH 响应头中提取 UID。"""
+    match = re.search(rb"\bUID\s+(\d+)\b", header)
+    return match.group(1).decode() if match else ""
+
+
 class MailReader:
     """USTC 邮箱 IMAP 读取器。"""
 
@@ -185,29 +199,30 @@ class MailReader:
         since_date = (date.today() - timedelta(days=days)).strftime("%d-%b-%Y")
         logger.info("搜索 %s 以来 (近 %d 天) 的邮件...", since_date, days)
 
-        status, msg_ids = self._conn.search(None, f'(SINCE "{since_date}")')
+        status, msg_ids = self._conn.uid("search", None, f'(SINCE "{since_date}")')
         if status != "OK":
-            raise RuntimeError("IMAP 搜索失败")
+            raise RuntimeError("IMAP UID 搜索失败")
 
-        uid_list = msg_ids[0].split()
+        uid_list = msg_ids[0].split() if msg_ids and msg_ids[0] else []
         if not uid_list:
             logger.info("未找到新邮件")
             return []
 
-        logger.info("找到 %d 封邮件，开始解析...", len(uid_list))
-
-        # 批量获取邮件
-        uids_str = b",".join(uid_list)
-        status, msg_data = self._conn.fetch(uids_str, "(RFC822)")
+        logger.info("找到 %d 封邮件，开始按 UID 解析...", len(uid_list))
 
         emails: list[EmailRecord] = []
-        for i, uid in enumerate(uid_list):
+        for uid in uid_list:
+            uid_str = uid.decode()
             try:
-                record = self._parse_single_email(uid.decode(), msg_data, i)
+                status, msg_data = self._conn.uid("fetch", uid, "(RFC822)")
+                if status != "OK":
+                    logger.warning("获取邮件失败 (UID: %s)，跳过", uid_str)
+                    continue
+                record = self._parse_single_email(uid_str, msg_data)
                 if record:
                     emails.append(record)
             except Exception:
-                logger.exception("解析邮件失败 (UID: %s)，跳过", uid.decode())
+                logger.exception("解析邮件失败 (UID: %s)，跳过", uid_str)
 
         # 按日期排序：从旧到新
         emails.sort(key=lambda e: e.date)
@@ -215,27 +230,24 @@ class MailReader:
         return emails
 
     def _parse_single_email(
-        self, uid_str: str, raw_data: list, index: int
+        self, uid_str: str, raw_data: list
     ) -> Optional[EmailRecord]:
-        """解析单封邮件为 EmailRecord。
-
-        注意：imaplib 的 fetch 返回格式为 [b'1 (RFC822 {N}', b'...raw...'), b')']。
-        这里用简单的索引方式解析。
-        """
-        # IMAP fetch 响应对批量 UID 的格式是扁平的列表
+        """解析单封邮件为 EmailRecord。"""
         try:
-            # IMAP fetch 返回的 raw_data 是一个扁平列表：
-            # [(b'UID (RFC822 {size}', b'raw_message'), b')', ...]
-            # 先收集所有邮件数据 tuple，再按 index 取对应的那封
             raw_email = None
             if isinstance(raw_data, list):
-                email_data_items: list[bytes] = []
                 for item in raw_data:
                     if isinstance(item, tuple) and len(item) == 2:
-                        email_data_items.append(item[1])
-
-                if index < len(email_data_items):
-                    raw_email = email_data_items[index]
+                        response_uid = _extract_uid_from_fetch_header(item[0])
+                        if response_uid and response_uid != uid_str:
+                            logger.warning(
+                                "IMAP 响应 UID 不匹配 (期望: %s, 实际: %s)，跳过",
+                                uid_str,
+                                response_uid,
+                            )
+                            return None
+                        raw_email = item[1]
+                        break
 
             if raw_email is None:
                 logger.warning("无法从 IMAP 响应中提取邮件数据 (UID: %s)", uid_str)
@@ -246,7 +258,7 @@ class MailReader:
             # 提取各字段
             subject = _decode_mime_header(msg.get("Subject", "(无主题)"))
             from_header = _decode_mime_header(msg.get("From", ""))
-            message_id = msg.get("Message-ID", uid_str)
+            message_id = _normalize_message_id(msg.get("Message-ID"))
             date_val = _parse_date(msg.get("Date"))
 
             # 解析发件人

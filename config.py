@@ -15,18 +15,21 @@ load_dotenv(dotenv_path=env_path)
 
 
 def _get_env(key: str, default: str = "") -> str:
-    """读取环境变量，若不存在返回默认值（默认空字符串）。"""
-    return os.getenv(key, default)
+    """读取环境变量，若不存在或为空字符串则返回默认值。"""
+    value = os.getenv(key)
+    if value is None or value == "":
+        return default
+    return value
 
 
 def _get_env_int(key: str, default: int) -> int:
     """读取整数类型的环境变量。"""
-    return int(os.getenv(key, str(default)))
+    return int(_get_env(key, str(default)))
 
 
 def _get_env_float(key: str, default: float) -> float:
     """读取浮点类型的环境变量。"""
-    return float(os.getenv(key, str(default)))
+    return float(_get_env(key, str(default)))
 
 
 # ---- 邮件配置 ----

@@ -3,8 +3,9 @@
 
 # 输出目录
 output/
+docs/ddl_events.ics
 
-# 数据库文件（CI 中通过 git add -f 强制跟踪 mail_cache.db 以实现持久化）
+# 数据库文件
 data/
 
 # Python

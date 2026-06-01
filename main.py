@@ -13,7 +13,6 @@
 """
 
 import argparse
-import io
 import json
 import logging
 import sys
@@ -21,12 +20,11 @@ from datetime import datetime
 
 # 修复 Windows 终端中文编码问题：必须在 logging.basicConfig 之前设置
 if sys.platform == "win32":
-    sys.stdout = io.TextIOWrapper(
-        sys.stdout.buffer, encoding="utf-8", errors="replace"
-    )
-    sys.stderr = io.TextIOWrapper(
-        sys.stderr.buffer, encoding="utf-8", errors="replace"
-    )
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except AttributeError:
+        pass
 
 import config
 from mail_reader import MailReader, EmailRecord
@@ -120,14 +118,20 @@ def run_pipeline(
 
         # 过滤已处理的邮件
         processed_uids = set() if force_all else db.get_processed_uids()
-        new_emails = [e for e in all_emails if e.uid not in processed_uids]
+        processed_message_ids = set() if force_all else db.get_processed_message_ids()
+        new_emails = [
+            e for e in all_emails
+            if e.uid not in processed_uids
+            and (not e.message_id or e.message_id not in processed_message_ids)
+        ]
         stats["new_emails"] = len(new_emails)
 
+        processed_email_count = stats["total_emails"] - stats["new_emails"]
         if not new_emails:
             logger.info(
                 "没有新邮件需要处理（共 %d 封，%d 封已处理）",
                 stats["total_emails"],
-                len(processed_uids),
+                processed_email_count,
             )
             return stats
 
@@ -135,7 +139,7 @@ def run_pipeline(
             "开始处理 %d 封新邮件（共 %d 封，%d 封已处理）...",
             stats["new_emails"],
             stats["total_emails"],
-            len(processed_uids),
+            processed_email_count,
         )
 
         # 批量提取 DDL
@@ -149,17 +153,6 @@ def run_pipeline(
         for result in results:
             if result.error:
                 stats["errors"] += 1
-                # 错误邮件也标记为已处理，避免重复失败
-                if not dry_run:
-                    db.mark_processed(
-                        mail_uid=result.mail_uid,
-                        message_id="",
-                        subject="",
-                        from_address="",
-                        received_date=datetime.now().isoformat(),
-                        has_events=False,
-                        events_json=json.dumps({"error": result.error}),
-                    )
 
             if result.has_events:
                 stats["emails_with_events"] += 1

@@ -45,6 +45,9 @@ CREATE TABLE IF NOT EXISTS calendar_events (
     created_at TEXT DEFAULT (datetime('now', 'localtime')),
     FOREIGN KEY (source_mail_uid) REFERENCES processed_emails(mail_uid)
 );
+
+CREATE INDEX IF NOT EXISTS idx_processed_emails_message_id
+ON processed_emails(message_id);
 """
 
 
@@ -90,6 +93,15 @@ class Database:
             raise RuntimeError("数据库未连接")
         cursor = self._conn.execute("SELECT mail_uid FROM processed_emails")
         return {row["mail_uid"] for row in cursor.fetchall()}
+
+    def get_processed_message_ids(self) -> set[str]:
+        """获取所有已处理邮件的 Message-ID 集合。"""
+        if not self._conn:
+            raise RuntimeError("数据库未连接")
+        cursor = self._conn.execute(
+            "SELECT message_id FROM processed_emails WHERE message_id IS NOT NULL AND message_id != ''"
+        )
+        return {row["message_id"] for row in cursor.fetchall()}
 
     def mark_processed(
         self,
