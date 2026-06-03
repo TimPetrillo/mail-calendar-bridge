@@ -2,23 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260602T055529Z
-DESCRIPTION:科学与社会研讨课授课，课堂号 FS1001.1P，请按
- 时上课；地点：力一楼227。\n\n---\n类型: 活动\n来源邮件:
-  研讨课加课\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-DTEND:20260531T124000Z
-LOCATION:力一楼227
-DTSTART:20260531T110000Z
-SUMMARY:科学与社会研讨课加课
-UID:ab70d25d-a838-5d72-af35-0af460e5e412
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
 DTSTAMP:20260602T055529Z
 DESCRIPTION:瑞典皇家理工学院（KTH）硕士项目线下宣讲会，
  Andrew Martin 教授解读申请流程、专业选择、留学生活并答
@@ -39,22 +23,7 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260602T055529Z
-DESCRIPTION:学期论文DDL为6月6日晚24:00，按要求格式命名作
- 业文件名与邮件主题后提交。\n\n---\n类型: 论文/答辩\n来
- 源邮件: 机考与作业DDL提醒\n提取置信度: 95%\n\n由 Mail-Cale
- ndar-Bridge 自动生成
-DTEND:20260606T155900Z
-DTSTART:20260606T155900Z
-SUMMARY:提交学期论文
-UID:86361390-6bb6-5596-929d-1fa15d0d6bee
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
 DTSTAMP:20260602T055529Z
 DESCRIPTION:《工程科学实践》需在6月30日前完成各项目、雨
  课堂作业、虚拟仿真实验和课程总结等要求。\n\n---\n类
@@ -72,17 +41,17 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260602T055529Z
-DTSTART;VALUE=DATE:20260629
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6098”已标记删除；如为误操作，需在此日期前通过 G
- it USTC inactive projects 页面保留项目。\n\n---\n类型: 其他\n
- 来源邮件: 「词元计划」成长营-deletion_scheduled-6098 | Projec
- t scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge
-  自动生成
-LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留即将删除的 Git 项目
-UID:dabd3979-1e43-5785-b80d-17ae95002287
+DTSTAMP:20260603T060937Z
+DTSTART;VALUE=DATE:20260702
+DESCRIPTION:GitLab 项目“王彬清 / 「词元计划」成长营-deletio
+ n_scheduled-6099”将被删除；如为误操作，需在此日期前通
+ 过 inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源
+ 邮件: 「词元计划」成长营-deletion_scheduled-6099 | Project sche
+ duled for deletion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自
+ 动生成
+LOCATION:线上：git.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留即将删除的 Git 项目截止
+UID:4845ea2e-0f52-51db-9408-5c4b7d6af1b5
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -90,6 +59,23 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
+DTSTART;VALUE=DATE:20260630
+DESCRIPTION:《工程科学实践》课程要求：各项目、雨课堂各
+ 项目作业（只能做一次）、虚拟仿真实验、课程总结均
+ 需在6月30日前完成。联系人：叶回春老师。\n\n---\n类型: 
+ 作业截止\n来源邮件: 请同学们注意《工程科学实践》课
+ 程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+SUMMARY:完成《工程科学实践》课程要求
+UID:6f4cfb0c-9c27-532f-8e56-0f19c9e2be6c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
 DTSTAMP:20260602T055529Z
 DESCRIPTION:力学B（PHYS1001B.04）课程期末考试；请携带校园
  一卡通（带照片），提前10分钟到东区第五教学楼5203参
@@ -107,6 +93,25 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
+DTSTAMP:20260602T055529Z
+DESCRIPTION:科学与社会研讨课授课，课堂号 FS1001.1P，请按
+ 时上课；地点：力一楼227。\n\n---\n类型: 活动\n来源邮件:
+  研讨课加课\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动
+ 生成
+DTEND:20260531T124000Z
+LOCATION:力一楼227
+DTSTART:20260531T110000Z
+SUMMARY:科学与社会研讨课加课
+UID:ab70d25d-a838-5d72-af35-0af460e5e412
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
 DTSTAMP:20260602T055529Z
 DESCRIPTION:史纲机考，请准时参加；题库已上传至课程群。
  \n\n---\n类型: 考试\n来源邮件: 机考与作业DDL提醒\n提取置
@@ -116,6 +121,42 @@ LOCATION:西区机房（3A5楼）
 DTSTART:20260626T075500Z
 SUMMARY:史纲机考
 UID:8e855ad7-130d-5851-affe-87cee7494bff
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
+DTSTAMP:20260602T055529Z
+DESCRIPTION:学期论文DDL为6月6日晚24:00，按要求格式命名作
+ 业文件名与邮件主题后提交。\n\n---\n类型: 论文/答辩\n来
+ 源邮件: 机考与作业DDL提醒\n提取置信度: 95%\n\n由 Mail-Cale
+ ndar-Bridge 自动生成
+DTEND:20260606T155900Z
+DTSTART:20260606T155900Z
+SUMMARY:提交学期论文
+UID:86361390-6bb6-5596-929d-1fa15d0d6bee
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260603T060937Z
+DTSTART;VALUE=DATE:20260629
+DTSTAMP:20260602T055529Z
+DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
+ uled-6098”已标记删除；如为误操作，需在此日期前通过 G
+ it USTC inactive projects 页面保留项目。\n\n---\n类型: 其他\n
+ 来源邮件: 「词元计划」成长营-deletion_scheduled-6098 | Projec
+ t scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge
+  自动生成
+LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留即将删除的 Git 项目
+UID:dabd3979-1e43-5785-b80d-17ae95002287
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
