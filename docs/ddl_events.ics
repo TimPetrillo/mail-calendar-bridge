@@ -2,69 +2,14 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DESCRIPTION:《工程科学实践》课程各项目作业（雨课堂）、
- 虚拟仿真实验及课程总结等需在6月30日前完成。联系人
- ：叶回春老师。\n\n---\n类型: 作业截止\n来源邮件: 请同
- 学们注意《工程科学实践》课程要求\n提取置信度: 90%\n\n
- 由 Mail-Calendar-Bridge 自动生成
-DTEND:20260630T155900Z
-DTSTART:20260630T155900Z
-SUMMARY:完成《工程科学实践》课程要求
-UID:d65e074a-e566-5f35-915d-4cdd238a9249
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DTSTART;VALUE=DATE:20260528
-DTSTAMP:20260604T060155Z
-DESCRIPTION:计划出国（境）交流（含线上交流）的学生，须
- 最迟于行前7个工作日凭正式录取或邀请函，通过全球化
- 学习平台提交公派出境申请；赴台交流联系陶子威老师
- 办理。\n\n---\n类型: 报名/注册\n来源邮件: 【计划出境交
- 流学生注意】关于严格执行学生出境交流审批规定的通
- 知\n提取置信度: 82%\n\n由 Mail-Calendar-Bridge 自动生成
-SUMMARY:提交出境交流审批申请
-UID:437f7f2a-c8c4-57ba-bb7f-84b4d12d7a94
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DTSTART;VALUE=DATE:20260629
-DTSTAMP:20260604T060155Z
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6098”已标记删除；如为误操作，需在截止日前通过 g
- it.ustc.edu.cn/dashboard/projects/inactive 保留项目。\n\n---\n类型:
-  其他\n来源邮件: 「词元计划」成长营-deletion_scheduled-6098
-  | Project scheduled for deletion\n提取置信度: 95%\n\n由 Mail-Calend
- ar-Bridge 自动生成
-SUMMARY:保留 Git 项目以避免删除
-UID:80e64a81-9461-5abc-84f1-51ad4402b206
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
+DTSTAMP:20260606T045858Z
 DTSTART;VALUE=DATE:20260630
-DTSTAMP:20260604T060155Z
-DESCRIPTION:《工程科学实践》需在6月30日前完成各项目、雨
- 课堂作业、虚拟仿真实验及课程总结等要求。\n\n---\n类
- 型: 作业截止\n来源邮件: 请同学们注意《工程科学实践
- 》课程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-SUMMARY:完成《工程科学实践》课程要求
-UID:6f4cfb0c-9c27-532f-8e56-0f19c9e2be6c
+DESCRIPTION:《工程科学实践》课程需在6月30日前完成各项目
+ 、雨课堂作业、虚拟仿真实验及课程总结。\n\n---\n类型: 
+ 作业截止\n来源邮件: 请同学们注意《工程科学实践》课
+ 程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+SUMMARY:完成《工程科学实践》课程相关要求
+UID:9cf29375-a44b-51e2-8d40-74dd82b4aeeb
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -72,105 +17,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DTSTAMP:20260604T060155Z
-DESCRIPTION:力学B（PHYS1001B.04）课程期末考试；请携带校园
- 一卡通（带照片），提前10分钟到指定地点参加考试。\n\
- n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 100%\n\
- n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260530T023000Z
-LOCATION:东区 第五教学楼 5203
-DTSTART:20260530T003000Z
-SUMMARY:力学B期末考试
-UID:de6da8a4-549e-5866-9aaa-275a89721847
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DTSTAMP:20260604T060155Z
-DESCRIPTION:史纲机考将于6月26日（周五）15:55-16:35进行，请
- 准时参加考试。题库已上传至课程群。\n\n---\n类型: 考试
- \n来源邮件: 机考与作业DDL提醒\n提取置信度: 98%\n\n由 Mail
- -Calendar-Bridge 自动生成
-DTEND:20260626T083500Z
-LOCATION:西区机房（3A5楼）
-DTSTART:20260626T075500Z
-SUMMARY:史纲机考
-UID:8e855ad7-130d-5851-affe-87cee7494bff
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DTSTART;VALUE=DATE:20260702
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6099”已标记删除；如为误操作，需在截止日前通过 i
- nactive projects 页面保留项目。\n\n---\n类型: 其他\n来源邮
- 件: 「词元计划」成长营-deletion_scheduled-6099 | Project schedul
- ed for deletion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留 Git 项目以避免删除
-UID:d1166797-3030-5c7f-b184-fd70fa5dc7ae
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DTSTAMP:20260604T060155Z
-DESCRIPTION:学期论文DDL为6月6日晚24:00，请按要求格式命名
- 作业文件名与邮件主题并提交。\n\n---\n类型: 论文/答辩\n
- 来源邮件: 机考与作业DDL提醒\n提取置信度: 95%\n\n由 Mail-C
- alendar-Bridge 自动生成
-DTEND:20260606T155900Z
-DTSTART:20260606T155900Z
-SUMMARY:提交学期论文
-UID:86361390-6bb6-5596-929d-1fa15d0d6bee
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
-DESCRIPTION:力学B（PHYS1001B.04）期末考试，请携带校园一卡
- 通（带照片），提前10分钟到指定地点参加考试。\n\n---\n
- 类型: 考试\n来源邮件: 考试通知\n提取置信度: 99%\n\n由 Ma
- il-Calendar-Bridge 自动生成
-DTEND:20260530T023000Z
-LOCATION:东区 第五教学楼 5203
-DTSTART:20260530T003000Z
-SUMMARY:力学B（PHYS1001B.04）期末考试
-UID:f326f81c-a26e-5088-b2b4-5b5616db0451
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
+DTSTAMP:20260606T045858Z
 DTSTART;VALUE=DATE:20260629
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6098”已标记删除；如为误操作，需在 2026-06-29 前通
+DESCRIPTION:Git 项目“王彬清 / 「词元计划」成长营-deletion_s
+ cheduled-6098”将被删除；如为误操作，需在 2026-06-29 前通
  过 inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源
  邮件: 「词元计划」成长营-deletion_scheduled-6098 | Project sche
- duled for deletion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自
+ duled for deletion\n提取置信度: 96%\n\n由 Mail-Calendar-Bridge 自
  动生成
-LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留即将删除的 Git 项目
-UID:dabd3979-1e43-5785-b80d-17ae95002287
+SUMMARY:保留 Git 项目截止
+UID:626139ea-cd89-5075-b62e-db29686814d2
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -178,18 +34,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260605T052416Z
+DTSTAMP:20260606T045858Z
 DTSTART;VALUE=DATE:20260702
-DTSTAMP:20260604T060155Z
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6099”已标记删除；如为误操作，需在 2026年7月2日前
- 通过 git.ustc.edu.cn/dashboard/projects/inactive 保留项目。\n\n---\
- n类型: 其他\n来源邮件: 「词元计划」成长营-deletion_schedu
- led-6099 | Project scheduled for deletion\n提取置信度: 97%\n\n由 Mai
- l-Calendar-Bridge 自动生成
-LOCATION:线上 git.ustc.edu.cn
+DESCRIPTION:项目「王彬清 / 「词元计划」成长营-deletion_sched
+ uled-6099」已标记删除；如为误操作，需在截止日前通过 G
+ it USTC inactive projects 页面 retain 项目。\n\n---\n类型: 其他\n
+ 来源邮件: 「词元计划」成长营-deletion_scheduled-6099 | Projec
+ t scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge
+  自动生成
 SUMMARY:保留即将删除的 Git 项目
-UID:e83f6465-938f-582e-ba9c-5b6d4be22e99
+UID:8d23982d-57f5-584d-881d-a57d714bd9f9
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
