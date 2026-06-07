@@ -2,14 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260606T045858Z
-DTSTART;VALUE=DATE:20260630
-DESCRIPTION:《工程科学实践》课程需在6月30日前完成各项目
- 、雨课堂作业、虚拟仿真实验及课程总结。\n\n---\n类型: 
- 作业截止\n来源邮件: 请同学们注意《工程科学实践》课
- 程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
-SUMMARY:完成《工程科学实践》课程相关要求
-UID:9cf29375-a44b-51e2-8d40-74dd82b4aeeb
+DTSTAMP:20260607T052741Z
+DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
+ uled-6098”已标记删除；如为误操作，需在 2026-06-29 前到 g
+ it.ustc.edu.cn/dashboard/projects/inactive 保留项目。\n\n---\n类型:
+  其他\n来源邮件: 「词元计划」成长营-deletion_scheduled-6098
+  | Project scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Calend
+ ar-Bridge 自动生成
+DTEND:20260629T155900Z
+LOCATION:线上：git.ustc.edu.cn/dashboard/projects/inactive
+DTSTART:20260629T155900Z
+SUMMARY:保留即将删除的 Git 项目
+UID:ba704720-d456-5cbf-adfa-d7bdd624a7ec
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -17,8 +21,44 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260606T045858Z
+DTSTAMP:20260607T052741Z
+DTSTART;VALUE=DATE:20260702
+DESCRIPTION:GitLab 项目“王彬清 / 「词元计划」成长营-deletio
+ n_scheduled-6099”已标记删除；如为误操作，需在 2026年7月2
+ 日前通过 inactive projects 页面保留项目。\n\n---\n类型: 其
+ 他\n来源邮件: 「词元计划」成长营-deletion_scheduled-6099 | P
+ roject scheduled for deletion\n提取置信度: 95%\n\n由 Mail-Calendar-B
+ ridge 自动生成
+LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留 GitLab 项目截止
+UID:ecedfa62-eefe-5f8a-9cfc-296e96ac594b
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260607T052741Z
+DESCRIPTION:《工程科学实践》课程需在6月30日前完成各项目
+ 相关成绩、雨课堂作业、虚拟仿真实验及课程总结。\n\n-
+ --\n类型: 作业截止\n来源邮件: 请同学们注意《工程科学
+ 实践》课程要求\n提取置信度: 90%\n\n由 Mail-Calendar-Bridge 
+ 自动生成
+DTEND:20260630T155900Z
+DTSTART:20260630T155900Z
+SUMMARY:完成《工程科学实践》课程要求
+UID:d65e074a-e566-5f35-915d-4cdd238a9249
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260607T052741Z
 DTSTART;VALUE=DATE:20260629
+DTSTAMP:20260606T045858Z
 DESCRIPTION:Git 项目“王彬清 / 「词元计划」成长营-deletion_s
  cheduled-6098”将被删除；如为误操作，需在 2026-06-29 前通
  过 inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源
@@ -34,8 +74,25 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260607T052741Z
+DTSTART;VALUE=DATE:20260630
 DTSTAMP:20260606T045858Z
+DESCRIPTION:《工程科学实践》课程需在6月30日前完成各项目
+ 、雨课堂作业、虚拟仿真实验及课程总结。\n\n---\n类型: 
+ 作业截止\n来源邮件: 请同学们注意《工程科学实践》课
+ 程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+SUMMARY:完成《工程科学实践》课程相关要求
+UID:9cf29375-a44b-51e2-8d40-74dd82b4aeeb
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260607T052741Z
 DTSTART;VALUE=DATE:20260702
+DTSTAMP:20260606T045858Z
 DESCRIPTION:项目「王彬清 / 「词元计划」成长营-deletion_sched
  uled-6099」已标记删除；如为误操作，需在截止日前通过 G
  it USTC inactive projects 页面 retain 项目。\n\n---\n类型: 其他\n
