@@ -2,36 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260607T052741Z
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6098”已标记删除；如为误操作，需在 2026-06-29 前到 g
- it.ustc.edu.cn/dashboard/projects/inactive 保留项目。\n\n---\n类型:
-  其他\n来源邮件: 「词元计划」成长营-deletion_scheduled-6098
-  | Project scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Calend
- ar-Bridge 自动生成
-DTEND:20260629T155900Z
-LOCATION:线上：git.ustc.edu.cn/dashboard/projects/inactive
-DTSTART:20260629T155900Z
-SUMMARY:保留即将删除的 Git 项目
-UID:ba704720-d456-5cbf-adfa-d7bdd624a7ec
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260607T052741Z
-DTSTART;VALUE=DATE:20260702
-DESCRIPTION:GitLab 项目“王彬清 / 「词元计划」成长营-deletio
- n_scheduled-6099”已标记删除；如为误操作，需在 2026年7月2
- 日前通过 inactive projects 页面保留项目。\n\n---\n类型: 其
- 他\n来源邮件: 「词元计划」成长营-deletion_scheduled-6099 | P
- roject scheduled for deletion\n提取置信度: 95%\n\n由 Mail-Calendar-B
- ridge 自动生成
+DTSTAMP:20260608T055744Z
+DTSTART;VALUE=DATE:20260707
+DESCRIPTION:项目“王彬清 / image_transfer-deletion_scheduled-6160”
+ 已标记删除；如属误操作，需在 2026年7月7日前通过 GitLab
+  inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源邮
+ 件: image_transfer-deletion_scheduled-6160 | Project scheduled for\r\n de
+ letion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
 LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留 GitLab 项目截止
-UID:ecedfa62-eefe-5f8a-9cfc-296e96ac594b
+SUMMARY:保留 Git 项目以免被删除
+UID:72e138e9-cafb-576c-8ed5-c779b00d03df
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -39,16 +19,18 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260607T052741Z
-DESCRIPTION:《工程科学实践》课程需在6月30日前完成各项目
- 相关成绩、雨课堂作业、虚拟仿真实验及课程总结。\n\n-
- --\n类型: 作业截止\n来源邮件: 请同学们注意《工程科学
- 实践》课程要求\n提取置信度: 90%\n\n由 Mail-Calendar-Bridge 
- 自动生成
-DTEND:20260630T155900Z
-DTSTART:20260630T155900Z
-SUMMARY:完成《工程科学实践》课程要求
-UID:d65e074a-e566-5f35-915d-4cdd238a9249
+DTSTAMP:20260608T055744Z
+DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
+ uled-6099”将在30天后删除；如为误删，需在截止日前通过
+  git.ustc.edu.cn/dashboard/projects/inactive 保留项目。\n\n---\n类
+ 型: 其他\n来源邮件: 「词元计划」成长营-deletion_scheduled-
+ 6099 | Project scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Ca
+ lendar-Bridge 自动生成
+DTEND:20260702T155900Z
+LOCATION:线上 Git USTC
+DTSTART:20260702T155900Z
+SUMMARY:保留即将删除的 Git 项目
+UID:8d23982d-57f5-584d-881d-a57d714bd9f9
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -56,29 +38,10 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260607T052741Z
-DTSTART;VALUE=DATE:20260629
-DTSTAMP:20260606T045858Z
-DESCRIPTION:Git 项目“王彬清 / 「词元计划」成长营-deletion_s
- cheduled-6098”将被删除；如为误操作，需在 2026-06-29 前通
- 过 inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源
- 邮件: 「词元计划」成长营-deletion_scheduled-6098 | Project sche
- duled for deletion\n提取置信度: 96%\n\n由 Mail-Calendar-Bridge 自
- 动生成
-SUMMARY:保留 Git 项目截止
-UID:626139ea-cd89-5075-b62e-db29686814d2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260607T052741Z
+DTSTAMP:20260608T055744Z
 DTSTART;VALUE=DATE:20260630
-DTSTAMP:20260606T045858Z
-DESCRIPTION:《工程科学实践》课程需在6月30日前完成各项目
- 、雨课堂作业、虚拟仿真实验及课程总结。\n\n---\n类型: 
+DESCRIPTION:《工程科学实践》各项目作业（雨课堂）、虚拟
+ 仿真实验、课程总结等需在6月30日前完成。\n\n---\n类型: 
  作业截止\n来源邮件: 请同学们注意《工程科学实践》课
  程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
 SUMMARY:完成《工程科学实践》课程相关要求
@@ -90,17 +53,19 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260607T052741Z
-DTSTART;VALUE=DATE:20260702
-DTSTAMP:20260606T045858Z
-DESCRIPTION:项目「王彬清 / 「词元计划」成长营-deletion_sched
- uled-6099」已标记删除；如为误操作，需在截止日前通过 G
- it USTC inactive projects 页面 retain 项目。\n\n---\n类型: 其他\n
- 来源邮件: 「词元计划」成长营-deletion_scheduled-6099 | Projec
- t scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge
-  自动生成
-SUMMARY:保留即将删除的 Git 项目
-UID:8d23982d-57f5-584d-881d-a57d714bd9f9
+DTSTAMP:20260608T055744Z
+DESCRIPTION:德国学术交流中心（DAAD）上海代表处联合巴伐
+ 利亚州大学联盟、欧洲管理技术学院举办德国留学宣讲
+ 会，含审核流程、高教体系、入学条件及一对一问答；
+ 需扫描青春科大第二课堂二维码报名。\n\n---\n类型: 活动
+ \n来源邮件: 德国学术交流中心（DAAD）德国留学巡讲-中
+ 国科大站来袭\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自
+ 动生成
+DTEND:20260610T073000Z
+LOCATION:东区国际楼307报告厅
+DTSTART:20260610T060000Z
+SUMMARY:DAAD德国留学宣讲会（中国科大站）
+UID:e3a553b4-42b1-56aa-ab6f-08b2b8c5ff66
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
