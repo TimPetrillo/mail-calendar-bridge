@@ -2,17 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
+DTSTAMP:20260610T052434Z
 DTSTART;VALUE=DATE:20260707
-DTSTAMP:20260608T055744Z
 DESCRIPTION:项目“王彬清 / image_transfer-deletion_scheduled-6160”
- 已标记删除；如属误操作，需在 2026年7月7日前通过 GitLab
-  inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源邮
+ 已标记删除；如为误操作，需在 2026-07-07 前通过 Git USTC i
+ nactive projects 页面保留项目。\n\n---\n类型: 其他\n来源邮
  件: image_transfer-deletion_scheduled-6160 | Project scheduled for\r\n de
- letion\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+ letion\n提取置信度: 96%\n\n由 Mail-Calendar-Bridge 自动生成
 LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留 Git 项目以免被删除
-UID:72e138e9-cafb-576c-8ed5-c779b00d03df
+SUMMARY:保留将被删除的 Git 项目
+UID:c3db5a05-97e1-5093-9e79-e3e0297b3c42
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -20,68 +19,17 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
-DTSTART;VALUE=DATE:20260707
-DESCRIPTION:项目“王彬清 / image_transfer-deletion_scheduled-6160”
- 已标记删除；如为误操作，需在 2026年7月7日前通过 Git US
- TC inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源
- 邮件: image_transfer-deletion_scheduled-6160 | Project scheduled for\r\n
-  deletion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
-LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留 Git 项目以避免删除
-UID:bd59bd14-c2b7-5b5a-91db-bad7870407ee
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6099”已标记删除，如属误操作需在截止日前通过Git U
- STC inactive projects页面保留。\n\n---\n类型: 其他\n来源邮件:
-  「词元计划」成长营-deletion_scheduled-6099 | Project scheduled f
- or deletion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260702T155900Z
-LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-DTSTART:20260702T155900Z
-SUMMARY:保留Git项目以避免删除
-UID:67779e30-5800-52a0-b6ec-57f241f9c7da
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
-DTSTART;VALUE=DATE:20260630
-DTSTAMP:20260608T055744Z
-DESCRIPTION:《工程科学实践》各项目作业（雨课堂）、虚拟
- 仿真实验、课程总结等需在6月30日前完成。\n\n---\n类型: 
- 作业截止\n来源邮件: 请同学们注意《工程科学实践》课
- 程要求\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
-SUMMARY:完成《工程科学实践》课程相关要求
-UID:9cf29375-a44b-51e2-8d40-74dd82b4aeeb
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
-DESCRIPTION:郭万林院士报告会，您被安排在东区大礼堂（主
- 会场）参加；需携带一卡通入场，扫码签到。入场时间15
+DTSTAMP:20260610T052434Z
+DESCRIPTION:参加郭万林院士报告会；您被安排在东区大礼堂
+ （主会场），需携带一卡通入场并扫码签到；入场时间15
  :30-16:10。\n\n---\n类型: 活动\n来源邮件: 6月10日郭万林院
- 士报告会会场安排\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge
+ 士报告会会场安排\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge
   自动生成
 DTEND:20260610T091500Z
 LOCATION:东区大礼堂（主会场）
 DTSTART:20260610T081500Z
-SUMMARY:参加郭万林院士报告会
-UID:00f84b7f-7286-53b6-8fbe-06dfec90e1f0
+SUMMARY:郭万林院士报告会
+UID:9f4bad1d-f64d-5328-b66b-ed1093d29a88
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -89,32 +37,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
-DTSTAMP:20260608T055744Z
-DESCRIPTION:项目“王彬清 / 「词元计划」成长营-deletion_sched
- uled-6099”将在30天后删除；如为误删，需在截止日前通过
-  git.ustc.edu.cn/dashboard/projects/inactive 保留项目。\n\n---\n类
- 型: 其他\n来源邮件: 「词元计划」成长营-deletion_scheduled-
- 6099 | Project scheduled for deletion\n提取置信度: 98%\n\n由 Mail-Ca
- lendar-Bridge 自动生成
-DTEND:20260702T155900Z
-LOCATION:线上 Git USTC
-DTSTART:20260702T155900Z
-SUMMARY:保留即将删除的 Git 项目
-UID:8d23982d-57f5-584d-881d-a57d714bd9f9
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260609T051158Z
-DTSTAMP:20260608T055744Z
-DESCRIPTION:德国学术交流中心（DAAD）上海代表处联合巴伐
- 利亚州大学联盟、欧洲管理技术学院举办德国留学宣讲
- 会，含审核流程、高教体系、入学条件及一对一问答；
- 需扫描青春科大第二课堂二维码报名。\n\n---\n类型: 活动
+DTSTAMP:20260610T052434Z
+DESCRIPTION:德国学术交流中心上海代表处联合巴伐利亚州大
+ 学联盟、欧洲管理技术学院举办德国留学宣讲会，含审
+ 核流程、高等教育体系、申请条件介绍及一对一问答。
+ 需通过青春科大第二课堂二维码报名。\n\n---\n类型: 活动
  \n来源邮件: 德国学术交流中心（DAAD）德国留学巡讲-中
  国科大站来袭\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自
  动生成
@@ -123,6 +50,23 @@ LOCATION:东区国际楼307报告厅
 DTSTART:20260610T060000Z
 SUMMARY:DAAD德国留学宣讲会（中国科大站）
 UID:e3a553b4-42b1-56aa-ab6f-08b2b8c5ff66
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260610T052434Z
+DESCRIPTION:报告会入场：携带一卡通验证入场，手机扫描屏
+ 幕动态二维码签到；入场时间为15:30-16:10。\n\n---\n类型: 
+ 活动\n来源邮件: 6月10日郭万林院士报告会会场安排\n提
+ 取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260610T081000Z
+LOCATION:东区大礼堂（主会场）
+DTSTART:20260610T073000Z
+SUMMARY:郭万林院士报告会入场签到
+UID:b5c59ca6-46ac-5fa5-a06c-286cb5c8dffc
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
