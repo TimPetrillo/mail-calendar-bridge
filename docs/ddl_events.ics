@@ -2,16 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTSTAMP:20260625T050955Z
+DTSTART;VALUE=DATE:20260707
 DTSTAMP:20260612T055343Z
-DESCRIPTION:报告会入场时间为15:30-16:10，需携带一卡通验证
- 入场，并在入场后用手机扫描屏幕动态二维码签到。\n\n-
- --\n类型: 活动\n来源邮件: 6月10日郭万林院士报告会会场
- 安排\n提取置信度: 97%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260610T081000Z
-LOCATION:东区大礼堂（主会场）
-DTSTART:20260610T073000Z
-SUMMARY:郭万林院士报告会入场签到
-UID:b5c59ca6-46ac-5fa5-a06c-286cb5c8dffc
+DESCRIPTION:项目“王彬清 / image_transfer-deletion_scheduled-6160”
+ 已标记删除；如为误操作，需在截止前通过 Git USTC inactiv
+ e projects 页面保留项目。\n\n---\n类型: 其他\n来源邮件: ima
+ ge_transfer-deletion_scheduled-6160 | Project scheduled for\r\n deletion\n
+ 提取置信度: 96%\n\n由 Mail-Calendar-Bridge 自动生成
+LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留 Git 项目以避免删除
+UID:bd59bd14-c2b7-5b5a-91db-bad7870407ee
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -19,6 +20,7 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260625T050955Z
 DTSTAMP:20260612T055343Z
 DESCRIPTION:德国学术交流中心（DAAD）上海代表处联合巴伐
  利亚州大学联盟、欧洲管理技术学院举办德国留学宣讲
@@ -38,16 +40,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260612T055343Z
-DTSTART;VALUE=DATE:20260707
-DESCRIPTION:项目“王彬清 / image_transfer-deletion_scheduled-6160”
- 已标记删除；如为误操作，需在截止前通过 Git USTC inactiv
- e projects 页面保留项目。\n\n---\n类型: 其他\n来源邮件: ima
- ge_transfer-deletion_scheduled-6160 | Project scheduled for\r\n deletion\n
- 提取置信度: 96%\n\n由 Mail-Calendar-Bridge 自动生成
-LOCATION:https://git.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留 Git 项目以避免删除
-UID:bd59bd14-c2b7-5b5a-91db-bad7870407ee
+DTSTAMP:20260625T050955Z
+DESCRIPTION:史纲机考，需携带一卡通备查，不允许携带纸质
+ 材料和电子设备进考场。通知人：黄鹤老师。\n\n---\n类
+ 型: 考试\n来源邮件: 机考提醒\n提取置信度: 98%\n\n由 Mail-
+ Calendar-Bridge 自动生成
+DTEND:20260626T083500Z
+LOCATION:西区3A5楼机房
+DTSTART:20260626T075500Z
+SUMMARY:史纲机考
+UID:4fb4ac8c-7879-54f7-b618-242770cdf0c7
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -55,6 +57,25 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260625T050955Z
+DTSTAMP:20260612T055343Z
+DESCRIPTION:报告会入场时间为15:30-16:10，需携带一卡通验证
+ 入场，并在入场后用手机扫描屏幕动态二维码签到。\n\n-
+ --\n类型: 活动\n来源邮件: 6月10日郭万林院士报告会会场
+ 安排\n提取置信度: 97%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260610T081000Z
+LOCATION:东区大礼堂（主会场）
+DTSTART:20260610T073000Z
+SUMMARY:郭万林院士报告会入场签到
+UID:b5c59ca6-46ac-5fa5-a06c-286cb5c8dffc
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260625T050955Z
 DTSTAMP:20260612T055343Z
 DESCRIPTION:郭万林院士报告会，您被安排在东区大礼堂（主
  会场）参加；需携带一卡通验证入场，入场后扫描动态
