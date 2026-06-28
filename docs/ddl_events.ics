@@ -2,17 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260627T045713Z
-DTSTAMP:20260626T051347Z
-DESCRIPTION:请于6月26日15:55-16:35在西区3A5楼机房参加史纲机
- 考，携带一卡通备查，不允许携带纸质材料和电子设备
- 。\n\n---\n类型: 考试\n来源邮件: 机考提醒\n提取置信度: 9
- 9%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260626T083500Z
-LOCATION:西区3A5楼机房
-DTSTART:20260626T075500Z
-SUMMARY:史纲机考
-UID:4fb4ac8c-7879-54f7-b618-242770cdf0c7
+DTSTAMP:20260628T052126Z
+DESCRIPTION:中国近现代史纲要（MARX1010.18）期末考试，请携
+ 带校园一卡通（带照片），提前10分钟到指定地点参加考
+ 试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
+ : 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260704T023000Z
+LOCATION:西区 第三教学楼 3C103
+DTSTART:20260704T003000Z
+SUMMARY:中国近现代史纲要期末考试
+UID:d13767fd-3f2d-5087-a86d-310af15e23d8
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -20,16 +19,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260627T045713Z
-DESCRIPTION:中国近现代史纲要（MARX1010.18）课程期末考试，
- 请携带校园一卡通（带照片），提前10分钟到场。\n\n---\n
- 类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n由 Ma
- il-Calendar-Bridge 自动生成
-DTEND:20260704T023000Z
-LOCATION:西区 第三教学楼 3C103
-DTSTART:20260704T003000Z
-SUMMARY:中国近现代史纲要期末考试
-UID:d13767fd-3f2d-5087-a86d-310af15e23d8
+DTSTAMP:20260628T052126Z
+DESCRIPTION:史纲机考，需携带一卡通备查；不允许携带纸质
+ 材料和电子设备进考场，遵守考场纪律。\n\n---\n类型: 考
+ 试\n来源邮件: 机考提醒\n提取置信度: 99%\n\n由 Mail-Calendar
+ -Bridge 自动生成
+DTEND:20260626T083500Z
+LOCATION:西区3A5楼机房
+DTSTART:20260626T075500Z
+SUMMARY:参加史纲机考
+UID:98be32a2-6f74-5ad3-92eb-5be7a7d90e8a
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
