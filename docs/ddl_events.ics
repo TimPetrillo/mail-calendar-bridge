@@ -2,17 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260629T055603Z
-DTSTAMP:20260628T052126Z
-DESCRIPTION:史纲机考，需携带一卡通备查；不允许携带纸质
- 材料和电子设备进考场，遵守考场纪律。\n\n---\n类型: 考
- 试\n来源邮件: 机考提醒\n提取置信度: 99%\n\n由 Mail-Calendar
- -Bridge 自动生成
-DTEND:20260626T083500Z
-LOCATION:西区3A5楼机房
-DTSTART:20260626T075500Z
-SUMMARY:参加史纲机考
-UID:98be32a2-6f74-5ad3-92eb-5be7a7d90e8a
+DTSTAMP:20260630T051024Z
+DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试，请携带带照
+ 片的校园一卡通，提前10分钟到东区第二教学楼2210参加
+ 。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 9
+ 8%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260707T023000Z
+LOCATION:东区 第二教学楼 2210
+DTSTART:20260707T003000Z
+SUMMARY:线性代数(A1)期末考试
+UID:51d666aa-c18e-50b5-a57c-c28b1a340f29
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -20,11 +19,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260629T055603Z
-DESCRIPTION:英语读写II（FL1006.25）课程期末考试；请携带校
- 园一卡通（带照片），提前10分钟到指定地点参加考试。
- \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 100%
- \n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260630T051024Z
+DESCRIPTION:英语读写II（FL1006.25）期末考试；请携带带照片
+ 的校园一卡通，提前10分钟到东区第五教学楼5304参加考
+ 试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
+ : 98%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260706T080000Z
 LOCATION:东区 第五教学楼 5304
 DTSTART:20260706T063000Z
@@ -37,10 +36,10 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260629T055603Z
-DESCRIPTION:参加史纲机考；请携带一卡通备查，不允许携带
+DTSTAMP:20260630T051024Z
+DESCRIPTION:参加史纲机考，请携带一卡通备查；不允许携带
  纸质材料和电子设备进考场。\n\n---\n类型: 考试\n来源邮
- 件: 机考提醒\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动
+ 件: 机考提醒\n提取置信度: 99%\n\n由 Mail-Calendar-Bridge 自动
  生成
 DTEND:20260626T083500Z
 LOCATION:西区3A5楼机房
@@ -54,12 +53,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260629T055603Z
-DTSTAMP:20260628T052126Z
-DESCRIPTION:中国近现代史纲要（MARX1010.18）期末考试，请携
- 带校园一卡通（带照片），提前10分钟到指定地点参加考
- 试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
- : 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260630T051024Z
+DESCRIPTION:中国近现代史纲要（MARX1010.18）期末考试；请携
+ 带校园一卡通（带照片），提前10分钟到场。\n\n---\n类型
+ : 考试\n来源邮件: 考试通知\n提取置信度: 100%\n\n由 Mail-Ca
+ lendar-Bridge 自动生成
 DTEND:20260704T023000Z
 LOCATION:西区 第三教学楼 3C103
 DTSTART:20260704T003000Z
@@ -72,11 +70,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260629T055603Z
-DESCRIPTION:英语交流II（FL1004.08）课程期末考试，请携带校
- 园一卡通（带照片），提前10分钟到指定地点参加考试。
- \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\
- n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260630T051024Z
+DESCRIPTION:英语交流II（FL1004.08）课程期末考试；请携带带
+ 照片的校园一卡通，提前10分钟到东区第五教学楼5201参
+ 加考试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置
+ 信度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260706T091000Z
 LOCATION:东区 第五教学楼 5201
 DTSTART:20260706T083000Z
