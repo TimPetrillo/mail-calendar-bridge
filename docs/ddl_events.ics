@@ -2,29 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DESCRIPTION:计算机学院全校性专业选择面试预计在7月6日-7
- 月10日安排，具体时间地点待通知。现场需携带《全校性
- 专业选择申请表》及成绩单，临近面试打印。\n\n---\n类
- 型: 会议\n来源邮件: 关于计算机学院全校性专业选择面
- 试\n提取置信度: 78%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260710T100000Z
-DTSTART:20260706T010000Z
-SUMMARY:计算机学院全校性专业选择面试预计安排
-UID:9aa91a60-981f-5309-9e28-124c040d6297
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试；请携带校园
- 一卡通（带照片），提前10分钟到场。\n\n---\n类型: 考试\
- n来源邮件: 考试通知\n提取置信度: 99%\n\n由 Mail-Calendar-Bri
- dge 自动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试，请携带带照
+ 片的校园一卡通，提前10分钟到场。\n\n---\n类型: 考试\n
+ 来源邮件: 考试通知\n提取置信度: 98%\n\n由 Mail-Calendar-Brid
+ ge 自动生成
 DTEND:20260707T023000Z
 LOCATION:东区 第二教学楼 2210
 DTSTART:20260707T003000Z
@@ -37,17 +19,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
+DTSTAMP:20260704T044054Z
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260711
-DTSTAMP:20260702T050414Z
-DESCRIPTION:计算机学院全校性专业选择面试预计于7月6日-7
- 月10日安排，具体时间地点等待通知；现场需携带申请表
- 及成绩单。\n\n---\n类型: 会议\n来源邮件: 关于计算机学
- 院全校性专业选择面试\n提取置信度: 78%\n\n由 Mail-Calendar-
- Bridge 自动生成
-SUMMARY:计算机学院全校性专业选择面试（预计）
-UID:6c350b38-e0c4-59c8-8f93-c80a00a7f1f1
+DESCRIPTION:计算机学院全校性专业选择面试预计安排在7月6
+ 日-7月10日，具体时间地点等待通知；现场需携带申请表
+ 及成绩单，临近面试打印。\n\n---\n类型: 会议\n来源邮件:
+  关于计算机学院全校性专业选择面试\n提取置信度: 75%\n\
+ n由 Mail-Calendar-Bridge 自动生成
+SUMMARY:计算机学院全校性专业选择面试
+UID:9e5b85d3-f805-5bf7-953b-226582091360
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -55,12 +36,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:英语读写II（FL1006.25）课程期末考试；请携带校
- 园一卡通（带照片），提前10分钟到指定地点参加考试。
- \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\
- n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:英语读写II（FL1006.25）期末考试；请携带校园一
+ 卡通（带照片），提前10分钟到东区第五教学楼5304参加
+ 。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 9
+ 8%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260706T080000Z
 LOCATION:东区 第五教学楼 5304
 DTSTART:20260706T063000Z
@@ -73,13 +53,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
+DTSTAMP:20260704T044054Z
 DESCRIPTION:《中国近现代史纲要》期末考试，请按综合教务
  系统通知地点准时参加。\n\n---\n类型: 考试\n来源邮件: 
  《中国近现代史纲要》期末考试提醒\n提取置信度: 98%\n\n
  由 Mail-Calendar-Bridge 自动生成
 DTEND:20260704T023000Z
-LOCATION:综合教务系统通知地点
 DTSTART:20260704T003000Z
 SUMMARY:《中国近现代史纲要》期末考试
 UID:7924c671-29aa-57af-840b-dbcfcb301849
@@ -90,14 +69,14 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DESCRIPTION:全校性专业选择面试；组1。携带《全校性专业
- 选择申请表》及成绩单，提前10分钟到电三楼632会议室等
- 候，面试在630会议室进行。\n\n---\n类型: 会议\n来源邮件:
-  【务请回复】关于计算机学院全校性专业选择面试的通
- 知\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:参加计算机学院全校性专业选择面试，组1；携
+ 带《全校性专业选择申请表》及成绩单，提前10分钟到电
+ 三楼632会议室等候。\n\n---\n类型: 会议\n来源邮件: 【务
+ 请回复】关于计算机学院全校性专业选择面试的通知\n提
+ 取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260708T064000Z
-LOCATION:西区电三楼630会议室（提前至632会议室等候）
+LOCATION:西区电三楼630会议室；提前到电三楼632会议室等候
 DTSTART:20260708T054000Z
 SUMMARY:计算机学院转专业面试
 UID:0bc37c87-3a5f-5a86-ba6f-2e19d657ae92
@@ -108,17 +87,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:史纲机考，需携带一卡通备查，不允许携带纸质
- 材料和电子设备，遵守考场纪律。联系人：黄鹤老师。\n
- \n---\n类型: 考试\n来源邮件: 机考提醒\n提取置信度: 99%\n\
- n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260626T083500Z
-LOCATION:西区3A5楼机房
-DTSTART:20260626T075500Z
-SUMMARY:史纲机考
-UID:4fb4ac8c-7879-54f7-b618-242770cdf0c7
+DTSTAMP:20260704T044054Z
+DESCRIPTION:7月3日17:00前发送“姓名+学号+收到面试通知”至
+  hzh@ustc.edu.cn，确认收到计算机学院转专业面试通知。\n\n
+ ---\n类型: 报名/注册\n来源邮件: 【务请回复】关于计算
+ 机学院全校性专业选择面试的通知\n提取置信度: 98%\n\n由
+  Mail-Calendar-Bridge 自动生成
+DTEND:20260703T090000Z
+DTSTART:20260703T090000Z
+SUMMARY:回复转专业面试通知确认
+UID:ba62e9bf-390f-53fc-838c-666584844ee7
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -126,12 +104,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:热学B（PHYS1002B.04）课程期末考试；请携带校园
+DTSTAMP:20260704T044054Z
+DESCRIPTION:热学B（PHYS1002B.04）课程期末考试，请携带校园
  一卡通（带照片），提前10分钟到东区第五教学楼5104参
  加考试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置
- 信度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
+ 信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260708T023000Z
 LOCATION:东区 第五教学楼 5104
 DTSTART:20260708T003000Z
@@ -144,16 +121,17 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DESCRIPTION:在7月3日17:00前发送“姓名+学号+收到面试通知”
- 至 hzh@ustc.edu.cn，确认收到计算机学院转专业面试通知。\
- n\n---\n类型: 其他\n来源邮件: 【务请回复】关于计算机学
- 院全校性专业选择面试的通知\n提取置信度: 98%\n\n由 Mail-
- Calendar-Bridge 自动生成
-DTEND:20260703T090000Z
-DTSTART:20260703T090000Z
-SUMMARY:回复转专业面试通知确认
-UID:ba62e9bf-390f-53fc-838c-666584844ee7
+DTSTAMP:20260704T044054Z
+DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
+ RoboGame机器人大赛学生选课；上课地点西区教三楼3C102大
+ 教室。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制
+ 作》暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 
+ 自动生成
+DTEND:20260712T123000Z
+LOCATION:西区教三楼3C102大教室
+DTSTART:20260712T113000Z
+SUMMARY:《机器人设计与制作》暑期课上课
+UID:8f8041a1-3f6f-59e4-960c-ebeeeba9f0bf
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -161,12 +139,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:电工电子技术基础I（ME2011.03）课程期末考试；
- 请携带校园一卡通（带照片），提前10分钟到达指定考场
- 。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 9
- 9%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:电工电子技术基础I（ME2011.03）课程期末考试，
+ 请携带校园一卡通（带照片），提前10分钟到场。\n\n---\n
+ 类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n由 Ma
+ il-Calendar-Bridge 自动生成
 DTEND:20260709T083000Z
 LOCATION:西区 第三教学楼 3C104
 DTSTART:20260709T063000Z
@@ -179,12 +156,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:中国近现代史纲要（MARX1010.18）期末考试；请携
- 带校园一卡通（带照片），提前10分钟到场。\n\n---\n类型
- : 考试\n来源邮件: 考试通知\n提取置信度: 99%\n\n由 Mail-Cal
- endar-Bridge 自动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:中国近现代史纲要（MARX1010.18）课程期末考试；
+ 请携带带照片的校园一卡通，提前10分钟到场。\n\n---\n类
+ 型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n由 Mail-
+ Calendar-Bridge 自动生成
 DTEND:20260704T023000Z
 LOCATION:西区 第三教学楼 3C103
 DTSTART:20260704T003000Z
@@ -197,13 +173,29 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:数学分析(B2)（MATH1007.16）课程期末考试。请携带
- 校园一卡通（带照片），提前10分钟到指定地点参加考试
- 。通知来源：教务处/教务系统。\n\n---\n类型: 考试\n来源
- 邮件: 考试通知\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自
- 动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
+ RoboGame机器人大赛学生选课；上课地点西区教三楼3C102大
+ 教室。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制
+ 作》暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 
+ 自动生成
+DTEND:20260710T123000Z
+LOCATION:西区教三楼3C102大教室
+DTSTART:20260706T113000Z
+SUMMARY:《机器人设计与制作》暑期课上课
+UID:37159b12-984b-57d5-9313-e8461515939f
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260704T044054Z
+DESCRIPTION:数学分析(B2)（MATH1007.16）期末考试，需携带校园
+ 一卡通（带照片），提前10分钟到西区第三教学楼3B102参
+ 加。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
+ : 98%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260709T023000Z
 LOCATION:西区 第三教学楼 3B102
 DTSTART:20260709T003000Z
@@ -216,34 +208,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTAMP:20260702T050414Z
-DESCRIPTION:英语交流II（FL1004.08）课程期末考试；请携带校
- 园一卡通（带照片），提前10分钟到指定地点参加考试。
- \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\
- n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260704T044054Z
+DESCRIPTION:英语交流II（FL1004.08）期末考试；请携带校园一
+ 卡通（带照片），提前10分钟到东区第五教学楼5201参加
+ 。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 9
+ 8%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260706T091000Z
 LOCATION:东区 第五教学楼 5201
 DTSTART:20260706T083000Z
 SUMMARY:英语交流II期末考试
 UID:196f214d-abd0-5dc0-b6ac-e922ab05db5b
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260703T044840Z
-DTSTART;VALUE=DATE:20260720
-DESCRIPTION:如想修读计算机专业，可在学业指导中心专家指
- 导下，申请在学籍单位不变情况下将修读专业调整为拟
- 转专业。邮件仅说明申请时间为夏季学期第四周。\n\n---\
- n类型: 报名/注册\n来源邮件: 关于计算机学院全校性专业
- 选择面试\n提取置信度: 70%\n\n由 Mail-Calendar-Bridge 自动生
- 成
-SUMMARY:夏季学期第四周申请调整修读专业
-UID:ddc2deab-c2a7-50fe-bae9-ebe77398432a
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
