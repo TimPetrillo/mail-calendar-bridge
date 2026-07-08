@@ -2,17 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试；请携带校园
- 一卡通（带照片），提前10分钟到指定地点参加考试。\n\
- n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n
- 由 Mail-Calendar-Bridge 自动生成
-DTEND:20260707T023000Z
-LOCATION:东区 第二教学楼 2210
-DTSTART:20260707T003000Z
-SUMMARY:线性代数(A1)期末考试
-UID:51d666aa-c18e-50b5-a57c-c28b1a340f29
+DTSTAMP:20260708T042003Z
+DESCRIPTION:热学B（PHYS1002B.04）课程期末考试；请携带校园
+ 一卡通（带照片），提前10分钟到东区第五教学楼5104参
+ 加考试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置
+ 信度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260708T023000Z
+LOCATION:东区 第五教学楼 5104
+DTSTART:20260708T003000Z
+SUMMARY:热学B期末考试
+UID:64705742-65f7-54ef-bd03-367816a13bcd
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -20,12 +19,29 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DESCRIPTION:夏季《系统程序设计基础》课堂可供转专业或有
- 意修读计算机的学生选择，选课今天18:00截止。\n\n---\n类
- 型: 报名/注册\n来源邮件: 夏季《系统程序设计基础》可
- 供转专业学生选择\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge
-  自动生成
+DTSTAMP:20260708T042003Z
+DESCRIPTION:数学分析(B2)（MATH1007.16）课程期末考试；请携带
+ 校园一卡通（带照片），提前10分钟到指定地点参加。\n\
+ n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n
+ 由 Mail-Calendar-Bridge 自动生成
+DTEND:20260709T023000Z
+LOCATION:西区 第三教学楼 3B102
+DTSTART:20260709T003000Z
+SUMMARY:数学分析(B2)期末考试
+UID:f8abe52d-3311-5ddc-bfe7-559587107b11
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260708T042003Z
+DESCRIPTION:计算机学院《系统程序设计基础》夏季开设课堂
+ ，供转专业或有意修读计算机且未修读同学选择；选课
+ 今天18:00截止。\n\n---\n类型: 报名/注册\n来源邮件: 夏季
+ 《系统程序设计基础》可供转专业学生选择\n提取置信度
+ : 95%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260707T100000Z
 DTSTART:20260707T100000Z
 SUMMARY:《系统程序设计基础》夏季课程选课截止
@@ -37,13 +53,14 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:《中国近现代史纲要》期末考试，请按综合教务
- 系统通知的地点准时参加。\n\n---\n类型: 考试\n来源邮件:
-  《中国近现代史纲要》期末考试提醒\n提取置信度: 98%\n\
- n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260708T042003Z
+DESCRIPTION:7月4日（周六）8:30-10:30进行《中国近现代史纲要
+ 》期末考试；地点以综合教务系统通知为准，请准时参
+ 加。\n\n---\n类型: 考试\n来源邮件: 《中国近现代史纲要
+ 》期末考试提醒\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 
+ 自动生成
 DTEND:20260704T023000Z
+LOCATION:综合教务系统通知的地点
 DTSTART:20260704T003000Z
 SUMMARY:《中国近现代史纲要》期末考试
 UID:7924c671-29aa-57af-840b-dbcfcb301849
@@ -54,12 +71,45 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:热学B（PHYS1002B.04）课程期末考试；请携带带照
- 片的校园一卡通，提前10分钟到东区第五教学楼5104参加
- 考试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信
- 度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260708T042003Z
+DESCRIPTION:计算机学院全校性专业选择面试；携带《全校性
+ 专业选择申请表》及成绩单，提前10分钟到电三楼632会议
+ 室等候。\n\n---\n类型: 其他\n来源邮件: 【务请回复】关
+ 于计算机学院全校性专业选择面试的通知\n提取置信度: 9
+ 8%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260708T064000Z
+LOCATION:西区电三楼630会议室（候场：632会议室）
+DTSTART:20260708T054000Z
+SUMMARY:计算机学院转专业面试
+UID:0bc37c87-3a5f-5a86-ba6f-2e19d657ae92
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260708T042003Z
+DESCRIPTION:7月3日（周五）17:00前发送“姓名+学号+收到面试
+ 通知”至 hzh@ustc.edu.cn。\n\n---\n类型: 其他\n来源邮件: 【
+ 务请回复】关于计算机学院全校性专业选择面试的通知\n
+ 提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260703T090000Z
+DTSTART:20260703T090000Z
+SUMMARY:回复转专业面试通知确认
+UID:ba62e9bf-390f-53fc-838c-666584844ee7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260708T042003Z
+DESCRIPTION:热学B（PHYS1002B.04）课程期末考试；请携带校园
+ 一卡通（带照片），提前10分钟到东区第五教学楼5104参
+ 加。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
+ : 98%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260708T023000Z
 LOCATION:东区 第五教学楼 5104
 DTSTART:20260708T003000Z
@@ -72,46 +122,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DESCRIPTION:《线性代数A1》期末考试，请准时参加。\n\n---\n
- 类型: 考试\n来源邮件: 《线性代数A1》期末考试提醒\n提
- 取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260707T023000Z
-LOCATION:二教2210和2211教室
-DTSTART:20260707T003000Z
-SUMMARY:《线性代数A1》期末考试
-UID:335c8539-4b5c-5bae-a6da-4bc1807cc5db
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:英语交流II（FL1004.08）课程期末考试，请携带校
- 园一卡通（带照片），提前10分钟到指定地点参加考试。
- \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 99%\
- n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260706T091000Z
-LOCATION:东区 第五教学楼 5201
-DTSTART:20260706T083000Z
-SUMMARY:英语交流II期末考试
-UID:cf1c20d2-c0ad-55ab-9e96-767af58f326e
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:《机器人设计与制作》暑期课，7月12日晚19:30开
- 始；地点：西区教三楼3C102大教室。\n\n---\n类型: 活动\n
- 来源邮件: 《机器人设计与制作》暑期课通知\n提取置信
- 度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260708T042003Z
+DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
+ RoboGame机器人大赛学生选课；地点西区教三楼3C102大教室
+ 。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制作》
+ 暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
+ 生成
 DTEND:20260712T123000Z
 LOCATION:西区教三楼3C102大教室
 DTSTART:20260712T113000Z
@@ -124,17 +140,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260711
-DTSTAMP:20260706T052002Z
-DESCRIPTION:计算机学院全校性专业选择面试预计于7月6日-7
- 月10日安排，具体时间地点等待通知；现场需携带申请表
- 及成绩单。\n\n---\n类型: 活动\n来源邮件: 关于计算机学
- 院全校性专业选择面试\n提取置信度: 78%\n\n由 Mail-Calendar-
- Bridge 自动生成
-SUMMARY:计算机学院全校性专业选择面试预计安排
-UID:9efb66c5-205c-574e-8cea-9c4e710b9dac
+DTSTAMP:20260708T042003Z
+DESCRIPTION:英语交流II（FL1004.08）课程期末考试；请携带校
+ 园一卡通（带照片），提前10分钟到东区第五教学楼5201
+ 参加。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信
+ 度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260706T091000Z
+LOCATION:东区 第五教学楼 5201
+DTSTART:20260706T083000Z
+SUMMARY:英语交流II期末考试
+UID:cf1c20d2-c0ad-55ab-9e96-767af58f326e
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -142,9 +157,60 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试；请携带带照
+DTSTAMP:20260708T042003Z
+DESCRIPTION:电工电子技术基础I（ME2011.03）课程期末考试，
+ 请携带校园一卡通（带照片），提前10分钟到西区第三教
+ 学楼3C104参加。\n\n---\n类型: 考试\n来源邮件: 考试通知\n
+ 提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260709T083000Z
+LOCATION:西区 第三教学楼 3C104
+DTSTART:20260709T063000Z
+SUMMARY:电工电子技术基础I期末考试
+UID:17fca3e1-4b65-5b22-bcfb-de4d2f8801fa
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260708T042003Z
+DESCRIPTION:《线性代数A1》期末考试，请准时参加。通知人
+ ：欧阳毅老师。\n\n---\n类型: 考试\n来源邮件: 《线性代
+ 数A1》期末考试提醒\n提取置信度: 100%\n\n由 Mail-Calendar-Bri
+ dge 自动生成
+DTEND:20260707T023000Z
+LOCATION:二教2210和2211教室
+DTSTART:20260707T003000Z
+SUMMARY:《线性代数A1》期末考试
+UID:335c8539-4b5c-5bae-a6da-4bc1807cc5db
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260708T042003Z
+DESCRIPTION:计算机学院全校性转专业面试；携带《全校性专
+ 业选择申请表》及成绩单，提前10分钟到达电三楼632会议
+ 室等候。联系人：黄中华老师。\n\n---\n类型: 会议\n来源
+ 邮件: 【提醒明天13:40】计算机学院全校性转专业面试\n
+ 提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260708T064000Z
+LOCATION:西区电三楼632会议室
+DTSTART:20260708T054000Z
+SUMMARY:计算机学院转专业面试
+UID:a305793a-c757-536c-894c-46dad4eff1e1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260708T042003Z
+DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试，请携带带照
  片的校园一卡通，提前10分钟到东区第二教学楼2210参加
  考试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信
  度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
@@ -160,228 +226,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260711
-DESCRIPTION:计算机学院全校性专业选择面试预计于7月6日-7
- 月10日安排，具体时间地点等待通知；现场需携带申请表
- 及成绩单。\n\n---\n类型: 其他\n来源邮件: 关于计算机学
- 院全校性专业选择面试\n提取置信度: 78%\n\n由 Mail-Calendar-
- Bridge 自动生成
-SUMMARY:计算机学院全校性专业选择面试安排窗口
-UID:b146124d-024b-587c-9388-ea76e4c14fcc
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260803
-DESCRIPTION:如想修读计算机专业，可在学业指导中心专家指
- 导下申请调整修读专业，申请时间为夏季学期第四周；
- 邮件未给出具体日期。\n\n---\n类型: 报名/注册\n来源邮件
- : 关于计算机学院全校性专业选择面试\n提取置信度: 65%\n
- \n由 Mail-Calendar-Bridge 自动生成
-SUMMARY:申请调整修读专业时间
-UID:8b4976ab-9fa6-5576-b0b9-a6e3b995d764
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
+DTSTAMP:20260708T042003Z
 DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
  RoboGame机器人大赛学生选课；地点西区教三楼3C102大教室
- 。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制作》
- 暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-DTEND:20260709T123000Z
-LOCATION:西区教三楼3C102大教室
-DTSTART:20260709T113000Z
-SUMMARY:《机器人设计与制作》暑期课上课
-UID:74e59be3-37b9-5d7c-894f-6275986f8f68
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DESCRIPTION:热学B（PHYS1002B.04）课程期末考试；请携带带照
- 片的校园一卡通，提前10分钟到场。\n\n---\n类型: 考试\n
- 来源邮件: 考试通知\n提取置信度: 99%\n\n由 Mail-Calendar-Brid
- ge 自动生成
-DTEND:20260708T023000Z
-LOCATION:东区 第五教学楼 5104
-DTSTART:20260708T003000Z
-SUMMARY:热学B期末考试
-UID:64705742-65f7-54ef-bd03-367816a13bcd
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:电工电子技术基础I（ME2011.03）课程期末考试，
- 请携带校园一卡通（带照片），提前10分钟到西区第三教
- 学楼3C104参加考试。\n\n---\n类型: 考试\n来源邮件: 考试通
- 知\n提取置信度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260709T083000Z
-LOCATION:西区 第三教学楼 3C104
-DTSTART:20260709T063000Z
-SUMMARY:电工电子技术基础I期末考试
-UID:17fca3e1-4b65-5b22-bcfb-de4d2f8801fa
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:数学分析(B2)（MATH1007.16）期末考试，请携带校园
- 一卡通（带照片），提前10分钟到西区第三教学楼3B102参
- 加。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
- : 98%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260709T023000Z
-LOCATION:西区 第三教学楼 3B102
-DTSTART:20260709T003000Z
-SUMMARY:数学分析(B2)期末考试
-UID:a2089ed3-bf4b-5ef2-85bf-a30b018f0bfb
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
- RoboGame机器人大赛学生选课；地点西区教三楼3C102大教室
- 。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制作》
- 暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-DTEND:20260710T123000Z
-LOCATION:西区教三楼3C102大教室
-DTSTART:20260710T113000Z
-SUMMARY:《机器人设计与制作》暑期课上课
-UID:a8f33a81-bffe-5f18-a316-05d83b69c683
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:英语读写II（FL1006.25）课程期末考试；请携带校
- 园一卡通（带照片），提前10分钟到场。\n\n---\n类型: 考
- 试\n来源邮件: 考试通知\n提取置信度: 99%\n\n由 Mail-Calendar
- -Bridge 自动生成
-DTEND:20260706T080000Z
-LOCATION:东区 第五教学楼 5304
-DTSTART:20260706T063000Z
-SUMMARY:英语读写II期末考试
-UID:57abc95b-47d8-52a3-81f8-6a5425f95ded
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
- RoboGame机器人大赛学生选课；地点西区教三楼3C102大教室
- 。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制作》
- 暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-DTEND:20260708T123000Z
-LOCATION:西区教三楼3C102大教室
-DTSTART:20260708T113000Z
-SUMMARY:《机器人设计与制作》暑期课上课
-UID:e2ea0de7-08c0-59fc-9d65-56e5b39fdac5
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:计算机学院全校性专业选择面试；携带《全校性
- 专业选择申请表》及成绩单，提前10分钟到电三楼632会议
- 室等候，面试在630会议室进行。\n\n---\n类型: 会议\n来源
- 邮件: 【务请回复】关于计算机学院全校性专业选择面试
- 的通知\n提取置信度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260708T064000Z
-LOCATION:西区电三楼630会议室（提前到632会议室等候）
-DTSTART:20260708T054000Z
-SUMMARY:计算机学院转专业面试
-UID:0bc37c87-3a5f-5a86-ba6f-2e19d657ae92
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DESCRIPTION:《机器人设计与制作》暑期课，限已报名本年度
- RoboGame机器人大赛学生选课；地点西区教三楼3C102大教室
- 。\n\n---\n类型: 活动\n来源邮件: 《机器人设计与制作》
- 暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动
- 生成
-DTEND:20260707T123000Z
-LOCATION:西区教三楼3C102大教室
-DTSTART:20260707T113000Z
-SUMMARY:《机器人设计与制作》暑期课上课
-UID:9c7ec10a-708b-593f-a619-fdf4423344c2
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:收到计算机学院全校性专业选择面试通知后，需
- 在截止前发送“姓名+学号+收到面试通知”至 hzh@ustc.edu.c
- n。\n\n---\n类型: 其他\n来源邮件: 【务请回复】关于计算
- 机学院全校性专业选择面试的通知\n提取置信度: 98%\n\n由
-  Mail-Calendar-Bridge 自动生成
-DTEND:20260703T090000Z
-DTSTART:20260703T090000Z
-SUMMARY:回复转专业面试通知
-UID:05186ffd-121a-588c-8650-6acee104d683
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:《机器人设计与制作》暑期课，上课日期为7月6
- 日-7月10日及7月12日，每晚19:30开始；地点：西区教三楼3C
- 102大教室。仅限已报名RoboGame机器人大赛学生选课，未报
- 名请退选。\n\n---\n类型: 活动\n来源邮件: 《机器人设计
- 与制作》暑期课通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bri
- dge 自动生成
+ 。7月6日-7月10日及7月12日每晚19:30开始。\n\n---\n类型: 活
+ 动\n来源邮件: 《机器人设计与制作》暑期课通知\n提取
+ 置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260710T123000Z
 LOCATION:西区教三楼3C102大教室
 DTSTART:20260706T113000Z
@@ -394,17 +244,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTAMP:20260706T052002Z
-DESCRIPTION:英语交流II（FL1004.08）课程期末考试；请携带带
- 照片的校园一卡通，提前10分钟到场。\n\n---\n类型: 考试\
- n来源邮件: 考试通知\n提取置信度: 99%\n\n由 Mail-Calendar-Bri
- dge 自动生成
-DTEND:20260706T091000Z
-LOCATION:东区 第五教学楼 5201
-DTSTART:20260706T083000Z
-SUMMARY:英语交流II期末考试
-UID:196f214d-abd0-5dc0-b6ac-e922ab05db5b
+DTSTAMP:20260708T042003Z
+DESCRIPTION:数学分析(B2)（MATH1007.16）期末考试，请携带校园
+ 一卡通（带照片），提前10分钟到指定地点参加考试。\n\
+ n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n
+ 由 Mail-Calendar-Bridge 自动生成
+DTEND:20260709T023000Z
+LOCATION:西区 第三教学楼 3B102
+DTSTART:20260709T003000Z
+SUMMARY:数学分析(B2)期末考试
+UID:a2089ed3-bf4b-5ef2-85bf-a30b018f0bfb
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
@@ -412,18 +261,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260707T045922Z
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260727
-DTSTAMP:20260706T052002Z
-DESCRIPTION:如想修读计算机专业，可在学业指导中心专家指
- 导下申请将修读专业调整为拟转专业；邮件称申请时间
- 为夏季学期第四周，但无法从邮件准确推算具体日期。\n
- \n---\n类型: 报名/注册\n来源邮件: 关于计算机学院全校性
- 专业选择面试\n提取置信度: 60%\n\n由 Mail-Calendar-Bridge 自
- 动生成
-SUMMARY:申请调整修读专业时间
-UID:570bc151-1aa1-5988-9c77-9048d921a3f7
+DTSTAMP:20260708T042003Z
+DESCRIPTION:电工电子技术基础I（ME2011.03）期末考试，请携
+ 带校园一卡通（带照片），提前10分钟到指定地点参加考
+ 试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
+ : 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260709T083000Z
+LOCATION:西区 第三教学楼 3C104
+DTSTART:20260709T063000Z
+SUMMARY:电工电子技术基础I期末考试
+UID:08f90cb4-718b-5ede-98f5-483fd64018d9
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
