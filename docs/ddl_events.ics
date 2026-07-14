@@ -2,12 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:热学B（PHYS1002B.04）课程期末考试；需携带校园
- 一卡通（带照片），提前10分钟到指定地点参加。\n\n---\n
- 类型: 考试\n来源邮件: 考试通知\n提取置信度: 100%\n\n由 M
- ail-Calendar-Bridge 自动生成
+DTSTAMP:20260714T040752Z
+DESCRIPTION:热学B（PHYS1002B.04）课程期末考试，请携带校园
+ 一卡通（带照片），提前10分钟到东区第五教学楼5104参
+ 加考试。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置
+ 信度: 99%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260708T023000Z
 LOCATION:东区 第五教学楼 5104
 DTSTART:20260708T003000Z
@@ -20,12 +19,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:数学分析(B2)（MATH1007.16）课程期末考试；请携带
- 校园一卡通（带照片），提前10分钟到指定地点参加考试
- 。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 1
- 00%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260714T040752Z
+DESCRIPTION:数学分析(B2)（MATH1007.16）期末考试；请携带校园
+ 一卡通（带照片），提前10分钟到西区第三教学楼3B102参
+ 加。\n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度
+ : 98%\n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260709T023000Z
 LOCATION:西区 第三教学楼 3B102
 DTSTART:20260709T003000Z
@@ -38,12 +36,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DESCRIPTION:夏季《系统程序设计基础》课程供转专业或有意
- 修读计算机的学生选择，选课需在今天18:00前完成。\n\n--
- -\n类型: 报名/注册\n来源邮件: 夏季《系统程序设计基础
- 》可供转专业学生选择\n提取置信度: 98%\n\n由 Mail-Calendar-
- Bridge 自动生成
+DTSTAMP:20260714T040752Z
+DESCRIPTION:转专业学生或有意修读计算机者可选择夏季开设
+ 的《系统程序设计基础》课堂，选课于今天18:00截止。\n\
+ n---\n类型: 报名/注册\n来源邮件: 夏季《系统程序设计基
+ 础》可供转专业学生选择\n提取置信度: 95%\n\n由 Mail-Calend
+ ar-Bridge 自动生成
 DTEND:20260707T100000Z
 DTSTART:20260707T100000Z
 SUMMARY:《系统程序设计基础》夏季课程选课截止
@@ -55,49 +53,12 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:计算机学院夏季开设《系统程序设计基础》课堂
- ，供转专业或有意修读计算机且未修读学生选择；选课
- 截止时间为今天18:00。\n\n---\n类型: 报名/注册\n来源邮件:
-  夏季《系统程序设计基础》可供转专业学生选择\n提取
- 置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260707T100000Z
-DTSTART:20260707T100000Z
-SUMMARY:夏季《系统程序设计基础》选课截止
-UID:e9d074c3-a385-5563-864c-fbcf45eaab50
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:英语交流II（FL1004.08）课程期末考试；请携带校
- 园一卡通（带照片），提前10分钟到指定地点参加考试。
- \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 98%\
- n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260706T091000Z
-LOCATION:东区 第五教学楼 5201
-DTSTART:20260706T083000Z
-SUMMARY:英语交流II期末考试
-UID:cf1c20d2-c0ad-55ab-9e96-767af58f326e
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:计算机学院转专业面试；请携带《全校性专业选
- 择申请表》及成绩单，提前10分钟到达电三楼632会议室等
- 候。联系人：黄中华老师。\n\n---\n类型: 考试\n来源邮件:
-  【提醒明天13:40】计算机学院全校性转专业面试\n提取置
- 信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260714T040752Z
+DESCRIPTION:参加计算机学院全校性转专业面试；携带《全校
+ 性专业选择申请表》及成绩单，提前10分钟到电三楼632会
+ 议室等候。\n\n---\n类型: 会议\n来源邮件: 【提醒明天13:40
+ 】计算机学院全校性转专业面试\n提取置信度: 98%\n\n由 Ma
+ il-Calendar-Bridge 自动生成
 DTEND:20260708T064000Z
 LOCATION:西区电三楼632会议室
 DTSTART:20260708T054000Z
@@ -110,47 +71,11 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:《线性代数A1》期末考试，请准时参加。\n\n---\n
- 类型: 考试\n来源邮件: 《线性代数A1》期末考试提醒\n提
- 取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
-DTEND:20260707T023000Z
-LOCATION:二教2210和2211教室
-DTSTART:20260707T003000Z
-SUMMARY:《线性代数A1》期末考试
-UID:335c8539-4b5c-5bae-a6da-4bc1807cc5db
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
-DESCRIPTION:线性代数(A1)（MATH1004.01）期末考试；请携带校园
- 一卡通（带照片），提前10分钟到场。\n\n---\n类型: 考试\
- n来源邮件: 考试通知\n提取置信度: 98%\n\n由 Mail-Calendar-Bri
- dge 自动生成
-DTEND:20260707T023000Z
-LOCATION:东区 第二教学楼 2210
-DTSTART:20260707T003000Z
-SUMMARY:线性代数(A1)期末考试
-UID:e5f96f82-5571-5e9d-b382-97b10cdcd351
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260713T043443Z
-DTSTAMP:20260712T042943Z
+DTSTAMP:20260714T040752Z
 DESCRIPTION:电工电子技术基础I（ME2011.03）期末考试；请携
- 带带照片的校园一卡通，提前10分钟到场。\n\n---\n类型: 
- 考试\n来源邮件: 考试通知\n提取置信度: 98%\n\n由 Mail-Calen
- dar-Bridge 自动生成
+ 带校园一卡通（带照片），提前10分钟到指定地点参加。
+ \n\n---\n类型: 考试\n来源邮件: 考试通知\n提取置信度: 99%\
+ n\n由 Mail-Calendar-Bridge 自动生成
 DTEND:20260709T083000Z
 LOCATION:西区 第三教学楼 3C104
 DTSTART:20260709T063000Z
