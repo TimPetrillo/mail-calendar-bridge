@@ -2,13 +2,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260719T042523Z
+DTSTAMP:20260720T043929Z
 DTSTART;VALUE=DATE:20260731
 DESCRIPTION:2026秋季学期华夏计算机科技英才班名单滚动报
- 名，报名时间为7月15日-7月31日，逾期无法报名；疑问咨
- 询朱老师 bhzhu@ustc.edu.cn。\n\n---\n类型: 报名/注册\n来源邮
- 件: 2025级全校性专业选择分班结果\n提取置信度: 95%\n\n由
-  Mail-Calendar-Bridge 自动生成
+ 名，报名时间为7月15日-7月31日，逾期无法报名；疑问可
+ 咨询朱老师 bhzhu@ustc.edu.cn。\n\n---\n类型: 报名/注册\n来源
+ 邮件: 2025级全校性专业选择分班结果\n提取置信度: 95%\n\n
+ 由 Mail-Calendar-Bridge 自动生成
 SUMMARY:计算机英才班滚动报名截止
 UID:e8c257b5-db3d-51e9-add4-410fbb484788
 BEGIN:VALARM
@@ -18,34 +18,16 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260719T042523Z
+DTSTAMP:20260720T043929Z
 DTSTART;VALUE=DATE:20260731
-DTSTAMP:20260718T040007Z
-DESCRIPTION:对“王大珩光机电科技英才班/王大珩英才班”
- 感兴趣的同学需在教务系统报名，截止报名时间为7月31
- 日。联系人：曹文萍老师。\n\n---\n类型: 报名/注册\n来源
- 邮件: 王大珩光机电科技英才班”2026年招生通知\n提取置
- 信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+DESCRIPTION:对“王大珩英才班”感兴趣的同学需在教务系统
+ 上报名，截止报名时间为7月31日。通知详见邮件附件。\n
+ \n---\n类型: 报名/注册\n来源邮件: 王大珩光机电科技英才
+ 班”2026年招生通知\n提取置信度: 95%\n\n由 Mail-Calendar-Bridg
+ e 自动生成
 LOCATION:教务系统
 SUMMARY:王大珩英才班报名截止
 UID:f976fe7f-1452-5985-8960-2cfa59a6c871
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260719T042523Z
-DTSTART;VALUE=DATE:20260731
-DTSTAMP:20260718T040007Z
-DESCRIPTION:2026秋季学期华夏计算机科技英才班名单滚动报
- 名，报名时间为7月15日-7月31日，逾期无法报名；疑问咨
- 询朱老师 bhzhu@ustc.edu.cn。\n\n---\n类型: 报名/注册\n来源邮
- 件: 2025级全校性专业选择分班结果\n提取置信度: 95%\n\n由
-  Mail-Calendar-Bridge 自动生成
-SUMMARY:英才班滚动报名截止
-UID:4c7dc5f8-4eee-53e2-bb4e-ec706e8d318b
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
