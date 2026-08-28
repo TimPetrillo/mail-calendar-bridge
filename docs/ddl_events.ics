@@ -2,6 +2,24 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTSTAMP:20260828T123743Z
+DESCRIPTION:报名参加一〇七杯算力与智能体大赛的同学需在
+ 9月6日23:59前完成比赛作品提交；材料、提交方式和须知
+ 见邮件附件；咨询 yanhh@ustc.edu.cn。\n\n---\n类型: 活动\n来
+ 源邮件: “一〇七杯”算力与智能体开发大赛作品提交预
+ 通知\n提取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTEND:20260906T155900Z
+DTSTART:20260906T155900Z
+SUMMARY:提交“一〇七杯”算力与智能体开发大赛作品
+UID:7116c8e0-6e00-5b45-b791-f411cbc73854
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260828T123743Z
 DTSTAMP:20260827T110402Z
 DESCRIPTION:报名参加一〇七杯算力与智能体大赛的同学需在
  截止前完成比赛作品提交；材料、方式和须知见邮件附
