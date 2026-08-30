@@ -2,6 +2,25 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DTSTAMP:20260830T062320Z
+DTSTART;VALUE=DATE:20260905
+DESCRIPTION:项目 Roboprotector / robogame-vision-align-deletion_scheduled
+ -47383 已标记为删除；如为错误，需在截止日期前到 GitLab
+  inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源邮
+ 件: robogame-vision-align-deletion_scheduled-47383 | Project scheduled\r\
+ n for deletion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生
+ 成
+LOCATION:https://git.lug.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留即将删除的 Git 项目
+UID:fa70885a-d301-5f7e-b480-0e3600935d1c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260830T062320Z
 DTSTAMP:20260829T074531Z
 DESCRIPTION:报名参加一〇七杯算力与智能体大赛的同学需在
  截止前完成比赛作品提交；提交材料、方式和须知见附
@@ -12,6 +31,23 @@ DTEND:20260906T155900Z
 DTSTART:20260906T155900Z
 SUMMARY:提交“一〇七杯”算力与智能体开发大赛作品
 UID:7116c8e0-6e00-5b45-b791-f411cbc73854
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260830T062320Z
+DTSTART;VALUE=DATE:20260905
+DESCRIPTION:项目 Roboprotector / robogame-localizer-deletion_scheduled-47
+ 698 已标记为删除；如为错误，需在截止日前通过 dashboard
+ /projects/inactive 保留项目。\n\n---\n类型: 其他\n来源邮件: r
+ obogame-localizer-deletion_scheduled-47698 | Project scheduled for\r\n del
+ etion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+LOCATION:https://git.lug.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留 GitLab 项目以避免删除
+UID:a3b6854c-4570-5c20-90e0-dff41362a155
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
