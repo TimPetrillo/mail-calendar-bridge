@@ -2,31 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTAMP:20260830T062320Z
-DTSTART;VALUE=DATE:20260905
-DESCRIPTION:项目 Roboprotector / robogame-vision-align-deletion_scheduled
- -47383 已标记为删除；如为错误，需在截止日期前到 GitLab
-  inactive projects 页面保留项目。\n\n---\n类型: 其他\n来源邮
- 件: robogame-vision-align-deletion_scheduled-47383 | Project scheduled\r\
- n for deletion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生
- 成
-LOCATION:https://git.lug.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留即将删除的 Git 项目
-UID:fa70885a-d301-5f7e-b480-0e3600935d1c
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260830T062320Z
-DTSTAMP:20260829T074531Z
-DESCRIPTION:报名参加一〇七杯算力与智能体大赛的同学需在
- 截止前完成比赛作品提交；提交材料、方式和须知见附
- 件，咨询 yanhh@ustc.edu.cn。\n\n---\n类型: 活动\n来源邮件: 
- “一〇七杯”算力与智能体开发大赛作品提交预通知\n提
- 取置信度: 98%\n\n由 Mail-Calendar-Bridge 自动生成
+DTSTAMP:20260831T065125Z
+DESCRIPTION:报名参加“一〇七杯”算力与智能体大赛的同学
+ 需按附件要求提交比赛作品；如需咨询联系 yanhh@ustc.edu.c
+ n。\n\n---\n类型: 活动\n来源邮件: “一〇七杯”算力与智
+ 能体开发大赛作品提交预通知\n提取置信度: 98%\n\n由 Mail-
+ Calendar-Bridge 自动生成
 DTEND:20260906T155900Z
 DTSTART:20260906T155900Z
 SUMMARY:提交“一〇七杯”算力与智能体开发大赛作品
@@ -38,16 +19,65 @@ TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260830T062320Z
+DTSTAMP:20260831T065125Z
+DTSTART;VALUE=DATE:20260905
+DESCRIPTION:项目 Roboprotector / robogame-vision-align-deletion_scheduled
+ -47383 已标记删除；如为错误，需在截止日前到 inactive pro
+ jects 页面保留项目。\n\n---\n类型: 其他\n来源邮件: robogame
+ -vision-align-deletion_scheduled-47383 | Project scheduled\r\n for deletio
+ n\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+LOCATION:https://git.lug.ustc.edu.cn/dashboard/projects/inactive
+SUMMARY:保留即将删除的 Git 项目
+UID:fa70885a-d301-5f7e-b480-0e3600935d1c
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260831T065125Z
+DTSTART;VALUE=DATE:20270830
+DESCRIPTION:Autodesk 通知：AutoCAD 教育版访问权限将于 2027-08-3
+ 0 到期。\n\n---\n类型: 其他\n来源邮件: 感谢您使用 AutoCAD\
+ n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+SUMMARY:AutoCAD 教育版访问权限到期
+UID:22d0b86d-9339-5b6c-a741-c98d468a1639
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260831T065125Z
 DTSTART;VALUE=DATE:20260905
 DESCRIPTION:项目 Roboprotector / robogame-localizer-deletion_scheduled-47
- 698 已标记为删除；如为错误，需在截止日前通过 dashboard
- /projects/inactive 保留项目。\n\n---\n类型: 其他\n来源邮件: r
- obogame-localizer-deletion_scheduled-47698 | Project scheduled for\r\n del
- etion\n提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
+ 698 已标记删除；如为错误，需在截止日前通过 inactive pro
+ jects 页面保留项目。\n\n---\n类型: 其他\n来源邮件: robogame
+ -localizer-deletion_scheduled-47698 | Project scheduled for\r\n deletion\n
+ 提取置信度: 95%\n\n由 Mail-Calendar-Bridge 自动生成
 LOCATION:https://git.lug.ustc.edu.cn/dashboard/projects/inactive
-SUMMARY:保留 GitLab 项目以避免删除
-UID:a3b6854c-4570-5c20-90e0-dff41362a155
+SUMMARY:保留 Git 项目截止
+UID:00c53c4a-117b-534b-b1b0-a09050a9db7a
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260831T065125Z
+DESCRIPTION:面向计算机学院同学新增周二上午1、2节课堂，
+ 从第二周开始；25级主修计算机专业同学可考虑退选原课
+ 堂并改选。\n\n---\n类型: 其他\n来源邮件: 《计算机导论
+ 》课程通知\n提取置信度: 65%\n\n由 Mail-Calendar-Bridge 自动
+ 生成
+DTEND:20260908T014000Z
+LOCATION:未注明
+DTSTART:20260908T000000Z
+SUMMARY:《计算机导论》周二新课堂开始上课
+UID:9b743b50-9633-592a-be6c-2b4a17e23209
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:
